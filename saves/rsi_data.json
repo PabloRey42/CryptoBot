@@ -2189,8 +2189,8 @@
         "error": "Volume nul"
     },
     "BTCST/USDT:USDT": {
-        "error": "binance {\"code\":-1122,\"msg\":\"Invalid symbol status.\"}"
-    },
+        "error": "Pas de variation"
+s    },
     "COTI/USDT:USDT": {
         "error": "Volume nul"
     },
@@ -3104,7 +3104,7 @@
         "error": "Volume nul"
     },
     "SOLV/USDT:USDT": {
-        "error": "binance {\"code\":-1122,\"msg\":\"Invalid symbol status.\"}"
+        "error": "Pas de variation"
     },
     "ARC/USDT:USDT": {
         "error": "Pas de variation"
