@@ -1,2336 +1,3888 @@
 {
     "BTC/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:15:00",
+        "close": 104578.75,
+        "RSI": 65.98545732874098
     },
     "ETH/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:15:00",
+        "close": 3267.58,
+        "RSI": 62.10018105009048
     },
     "BNB/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:15:00",
+        "close": 697.89,
+        "RSI": 51.438931737078384
     },
     "LTC/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:15:00",
+        "close": 117.89,
+        "RSI": 69.96699669966995
     },
     "XRP/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:15:00",
+        "close": 3.2766,
+        "RSI": 75.30512611879593
     },
     "TRX/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:15:00",
+        "close": 0.2566,
+        "RSI": 61.7647058823528
     },
     "NEO/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:15:00",
+        "close": 14.29,
+        "RSI": 64.2857142857141
     },
     "QTUM/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:15:00",
+        "close": 2.969,
+        "RSI": 66.66666666666634
     },
     "ADA/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:15:00",
+        "close": 1.0013,
+        "RSI": 76.62337662337691
     },
     "EOS/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:15:00",
+        "close": 0.8196,
+        "RSI": 61.35265700483098
     },
     "TUSD/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:15:00",
+        "close": 0.9996,
+        "RSI": 58.33333333333565
     },
     "IOTA/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:15:00",
+        "close": 0.3297,
+        "RSI": 64.0287769784174
     },
     "XLM/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:15:00",
+        "close": 0.4384,
+        "RSI": 71.26436781609203
     },
     "ONT/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:15:00",
+        "close": 0.2276,
+        "RSI": 64.15094339622651
     },
     "ETC/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:15:00",
+        "close": 26.84,
+        "RSI": 52.380952380952294
     },
     "ICX/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:15:00",
+        "close": 0.1722,
+        "RSI": 72.72727272727266
     },
     "NULS/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:15:00",
+        "close": 0.3396,
+        "RSI": 76.62337662337643
     },
     "VET/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:15:00",
+        "close": 0.0481,
+        "RSI": 66.66666666666666
     },
     "USDC/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:15:00",
+        "close": 1.0004,
+        "RSI": 66.66666666666666
     },
     "LINK/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:15:00",
+        "close": 25.45,
+        "RSI": 62.26415094339603
     },
     "ONG/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:15:00",
+        "close": 0.3122,
+        "RSI": 70.96774193548404
     },
     "HOT/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:15:00",
+        "close": 0.002354,
+        "RSI": 59.4936708860761
     },
     "ZIL/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:15:00",
+        "close": 0.02016,
+        "RSI": 57.692307692307764
     },
     "ZRX/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:15:00",
+        "close": 0.4435,
+        "RSI": 60.377358490565996
     },
     "FET/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:15:00",
+        "close": 1.299,
+        "RSI": 59.25925925925902
     },
     "BAT/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:15:00",
+        "close": 0.2343,
+        "RSI": 50.0
     },
     "ZEC/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:15:00",
+        "close": 49.59,
+        "RSI": 74.26470588235347
     },
     "IOST/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:15:00",
+        "close": 0.006369,
+        "RSI": 57.23684210526292
     },
     "CELR/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:15:00",
+        "close": 0.01537,
+        "RSI": 65.7894736842107
     },
     "DASH/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:15:00",
+        "close": 36.46,
+        "RSI": 65.38461538461507
     },
     "THETA/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:15:00",
+        "close": 2.078,
+        "RSI": 63.23529411764681
     },
     "ENJ/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:15:00",
+        "close": 0.171,
+        "RSI": 63.0434782608699
     },
     "ATOM/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:15:00",
+        "close": 6.239,
+        "RSI": 67.46987951807219
     },
     "TFUEL/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:15:00",
+        "close": 0.06436,
+        "RSI": 85.3448275862067
     },
     "ONE/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:15:00",
+        "close": 0.02227,
+        "RSI": 64.28571428571439
     },
     "FTM/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:15:00",
+        "close": 0.6675,
+        "RSI": null
     },
     "ALGO/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:15:00",
+        "close": 0.4123,
+        "RSI": 58.8652482269504
     },
     "DOGE/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:15:00",
+        "close": 0.36124,
+        "RSI": 86.68730650154772
     },
     "DUSK/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:15:00",
+        "close": 0.1806,
+        "RSI": 69.9999999999998
     },
     "ANKR/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:15:00",
+        "close": 0.03185,
+        "RSI": 66.2499999999996
     },
     "WIN/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:15:00",
+        "close": 9.83e-05,
+        "RSI": 63.758389261745236
     },
     "COS/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:15:00",
+        "close": 0.006476,
+        "RSI": 62.41610738255032
     },
     "MTL/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:15:00",
+        "close": 1.181,
+        "RSI": 73.68421052631622
     },
     "DENT/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:15:00",
+        "close": 0.001314,
+        "RSI": 59.4594594594595
     },
     "WAN/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:15:00",
+        "close": 0.1912,
+        "RSI": 72.41379310344831
     },
     "FUN/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:15:00",
+        "close": 0.003631,
+        "RSI": 47.76119402985076
     },
     "CVC/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:15:00",
+        "close": 0.1468,
+        "RSI": 67.74193548387177
     },
     "CHZ/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:15:00",
+        "close": 0.0771,
+        "RSI": 60.000000000000185
     },
     "BAND/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:15:00",
+        "close": 1.243,
+        "RSI": 59.99999999999985
     },
     "XTZ/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:15:00",
+        "close": 1.197,
+        "RSI": 55.172413793103736
     },
     "RVN/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:15:00",
+        "close": 0.0194,
+        "RSI": 66.66666666666688
     },
     "HBAR/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:15:00",
+        "close": 0.32645,
+        "RSI": 67.00924974306284
     },
     "NKN/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:15:00",
+        "close": 0.083,
+        "RSI": 55.55555555555564
     },
     "STX/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:15:00",
+        "close": 1.429,
+        "RSI": 55.55555555555563
     },
     "KAVA/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:15:00",
+        "close": 0.4928,
+        "RSI": 60.16949152542371
     },
     "ARPA/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:15:00",
+        "close": 0.04372,
+        "RSI": 62.650602409638495
     },
     "IOTX/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:15:00",
+        "close": 0.03359,
+        "RSI": 70.68965517241425
     },
     "RLC/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:15:00",
+        "close": 1.89,
+        "RSI": 54.716981132075375
     },
     "CTXC/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:15:00",
+        "close": 0.2508,
+        "RSI": 42.28187919463099
     },
     "BCH/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:15:00",
+        "close": 439.7,
+        "RSI": 49.295774647887164
     },
     "TROY/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:15:00",
+        "close": 0.002177,
+        "RSI": 55.913978494623755
     },
     "VITE/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:15:00",
+        "close": 0.00993,
+        "RSI": 50.0
     },
     "FTT/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:15:00",
+        "close": 2.0854,
+        "RSI": 42.505133470226184
     },
     "EUR/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:15:00",
+        "close": 1.0422,
+        "RSI": 61.904761904761905
     },
     "OGN/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:15:00",
+        "close": 0.103,
+        "RSI": 52.173913043478024
     },
     "LSK/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:15:00",
+        "close": 0.903,
+        "RSI": 61.53846153846153
     },
     "BNT/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:15:00",
+        "close": 0.6897,
+        "RSI": 56.470588235294095
     },
     "LTO/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:15:00",
+        "close": 0.1083,
+        "RSI": 56.24999999999989
     },
     "MBL/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:15:00",
+        "close": 0.003303,
+        "RSI": 58.4905660377358
     },
     "COTI/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:15:00",
+        "close": 0.10575,
+        "RSI": 66.82692307692312
     },
     "STPT/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:15:00",
+        "close": 0.08967,
+        "RSI": 62.31060606060607
     },
     "DATA/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:15:00",
+        "close": 0.03733,
+        "RSI": 61.03896103896137
     },
     "SOL/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:15:00",
+        "close": 267.75,
+        "RSI": 94.91869918699204
     },
     "CTSI/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:15:00",
+        "close": 0.1403,
+        "RSI": 78.26086956521598
     },
     "HIVE/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:15:00",
+        "close": 0.4057,
+        "RSI": 73.97260273972596
     },
     "CHR/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:15:00",
+        "close": 0.1906,
+        "RSI": 78.26086956521735
     },
     "ARDR/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:15:00",
+        "close": 0.09333,
+        "RSI": 56.03448275862091
     },
     "MDT/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:15:00",
+        "close": 0.04748,
+        "RSI": 68.42105263157907
     },
     "STMX/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.005545,
+        "RSI": 77.1929824561411
     },
     "KNC/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:15:00",
+        "close": 0.546,
+        "RSI": 75.38461538461533
     },
     "LRC/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:15:00",
+        "close": 0.1778,
+        "RSI": 56.66666666666698
     },
     "COMP/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 76.43,
+        "RSI": 59.62732919254657
     },
     "SC/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:15:00",
+        "close": 0.005376,
+        "RSI": 97.7272727272724
     },
     "ZEN/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:15:00",
+        "close": 22.79,
+        "RSI": 62.50000000000004
     },
     "SNX/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:15:00",
+        "close": 1.666,
+        "RSI": 54.5454545454545
     },
     "VTHO/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.007376,
+        "RSI": 19.91150442477874
     },
     "DGB/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.01111,
+        "RSI": 82.97872340425502
     },
     "SXP/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:15:00",
+        "close": 0.3133,
+        "RSI": 60.000000000000185
     },
     "MKR/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 1257.0,
+        "RSI": 39.99999999999999
     },
     "DCR/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 13.1,
+        "RSI": 41.176470588234864
     },
     "STORJ/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.4659,
+        "RSI": 70.12987012987026
     },
     "MANA/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.4825,
+        "RSI": 64.78873239436615
     },
     "YFI/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 7640.0,
+        "RSI": 53.846153846153854
     },
     "BAL/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 2.674,
+        "RSI": 66.66666666666666
     },
     "KMD/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:15:00",
+        "close": 0.2564,
+        "RSI": 43.58974358974352
     },
     "JST/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.03986,
+        "RSI": 59.45945945945931
     },
     "CRV/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.804,
+        "RSI": 46.94835680751178
     },
     "SAND/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.5648,
+        "RSI": 65.97938144329905
     },
     "NMR/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 13.2,
+        "RSI": 66.66666666666643
     },
     "DOT/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 6.524,
+        "RSI": 60.2272727272726
     },
     "LUNA/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.3545,
+        "RSI": 56.81818181818176
     },
     "RSR/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.012976,
+        "RSI": 61.24661246612459
     },
     "PAXG/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 2759.0,
+        "RSI": 0.0
     },
     "TRB/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 53.52,
+        "RSI": 59.09090909090957
     },
     "SUSHI/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 1.36,
+        "RSI": 55.882352941176435
     },
     "KSM/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 27.95,
+        "RSI": 66.66666666666626
     },
     "EGLD/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 31.57,
+        "RSI": 66.0714285714287
     },
     "DIA/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.6087,
+        "RSI": 56.190476190476126
     },
     "RUNE/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 3.218,
+        "RSI": 52.54237288135602
     },
     "FIO/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.03312,
+        "RSI": 65.2173913043469
     },
     "UMA/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 2.5,
+        "RSI": 64.814814814815
     },
     "BEL/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.5236,
+        "RSI": 61.8181818181814
     },
     "WING/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 5.021,
+        "RSI": 51.612903225806505
     },
     "UNI/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 13.063,
+        "RSI": 50.0
     },
     "OXT/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.111,
+        "RSI": 90.90909090909068
     },
     "SUN/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.02277,
+        "RSI": 45.94594594594567
     },
     "AVAX/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 37.32,
+        "RSI": 79.72972972972921
     },
     "FLM/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.0596,
+        "RSI": 69.99999999999986
     },
     "UTK/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.06729,
+        "RSI": 42.35294117647126
     },
     "XVS/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 8.6,
+        "RSI": 50.0
     },
     "ALPHA/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.0667,
+        "RSI": 69.23076923076972
     },
     "AAVE/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 350.93,
+        "RSI": 55.18518518518544
     },
     "NEAR/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 5.167,
+        "RSI": 55.79710144927537
     },
     "FIL/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 5.057,
+        "RSI": 50.0
     },
     "INJ/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 21.67,
+        "RSI": 55.55555555555563
     },
     "AUDIO/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.1335,
+        "RSI": 42.10526315789481
     },
     "CTK/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.729,
+        "RSI": 68.30985915492968
     },
     "AXS/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 5.998,
+        "RSI": 54.3103448275862
     },
     "HARD/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.1293,
+        "RSI": 26.086956521739594
     },
     "STRAX/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.06749,
+        "RSI": 98.412698412699
     },
     "ROSE/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.06773,
+        "RSI": 60.256410256410334
     },
     "AVA/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.9577,
+        "RSI": 47.20812182741118
     },
     "SKL/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.04238,
+        "RSI": 60.21505376344108
     },
     "GRT/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.1974,
+        "RSI": 53.8461538461538
     },
     "JUV/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 1.404,
+        "RSI": 63.63636363636363
     },
     "PSG/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 2.727,
+        "RSI": 52.94117647058792
     },
     "1INCH/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.334,
+        "RSI": 47.69230769230797
     },
     "OG/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 4.106,
+        "RSI": 33.9130434782608
     },
     "ATM/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 1.873,
+        "RSI": 68.75000000000026
     },
     "ASR/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 1.776,
+        "RSI": 69.99999999999986
     },
     "CELO/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.5841,
+        "RSI": 51.37614678899065
     },
     "RIF/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.0894,
+        "RSI": 53.33333333333295
     },
     "TRU/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.071,
+        "RSI": 53.846153846153435
     },
     "CKB/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.009833,
+        "RSI": 62.29508196721314
     },
     "TWT/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 1.0667,
+        "RSI": 58.333333333333215
     },
     "FIRO/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 1.617,
+        "RSI": 30.555555555555557
     },
     "LIT/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.771,
+        "RSI": 50.0
     },
     "SFP/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.6902,
+        "RSI": 52.77777777777816
     },
     "DODO/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.1195,
+        "RSI": 51.61290322580626
     },
     "CAKE/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 2.18,
+        "RSI": 55.882352941176435
     },
     "ACM/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 1.369,
+        "RSI": 48.27586206896529
     },
     "BADGER/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 3.947,
+        "RSI": 54.736842105263094
     },
     "FIS/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.3232,
+        "RSI": 30.555555555555344
     },
     "OM/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 3.6804,
+        "RSI": 88.67924528301893
     },
     "POND/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.01728,
+        "RSI": 54.99999999999982
     },
     "DEGO/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 2.077,
+        "RSI": 55.26315789473687
     },
     "ALICE/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 1.057,
+        "RSI": 55.99999999999986
     },
     "LINA/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.00403,
+        "RSI": 59.13978494623627
     },
     "PERP/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.6845,
+        "RSI": 67.79661016949173
     },
     "SUPER/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 1.1102,
+        "RSI": 60.14234875444854
     },
     "CFX/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.1537,
+        "RSI": 54.54545454545439
     },
     "TKO/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.3431,
+        "RSI": 66.666666666667
     },
     "PUNDIX/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.4421,
+        "RSI": 64.10256410256412
     },
     "TLM/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.01031,
+        "RSI": 40.00000000000017
     },
     "BAR/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 1.878,
+        "RSI": 57.14285714285669
     },
     "FORTH/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 4.681,
+        "RSI": 65.38461538461604
     },
     "BAKE/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.2129,
+        "RSI": 54.3478260869566
     },
     "BURGER/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.3708,
+        "RSI": 55.44554455445571
     },
     "SLP/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.003269,
+        "RSI": 73.33333333333348
     },
     "SHIB/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 2.037e-05,
+        "RSI": 68.42105263157895
     },
     "ICP/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 9.221,
+        "RSI": 51.87500000000003
     },
     "AR/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 15.4,
+        "RSI": 65.78947368421085
     },
     "MASK/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 2.45,
+        "RSI": 59.45945945945975
     },
     "LPT/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 12.724,
+        "RSI": 53.98773006134966
     },
     "XVG/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.010973,
+        "RSI": 49.77777777777794
     },
     "ATA/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.1141,
+        "RSI": 63.15789473684195
     },
     "GTC/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.602,
+        "RSI": 60.0
     },
     "ERN/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 1.984,
+        "RSI": 57.303370786516766
     },
     "PHA/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.2592,
+        "RSI": 32.8947368421058
     },
     "MLN/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 16.29,
+        "RSI": 77.77777777777821
     },
     "DEXE/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 20.059,
+        "RSI": 61.01694915254241
     },
     "C98/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.1339,
+        "RSI": 58.06451612903228
     },
     "CLV/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.07171,
+        "RSI": 23.940149625935135
     },
     "QNT/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 116.1,
+        "RSI": 70.83333333333329
     },
     "FLOW/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.702,
+        "RSI": 70.0
     },
     "MINA/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.5072,
+        "RSI": 58.33333333333333
     },
     "RAY/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 8.183,
+        "RSI": 73.57954545454524
     },
     "FARM/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 41.38,
+        "RSI": 66.66666666666666
     },
     "ALPACA/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.1427,
+        "RSI": 61.53846153846088
     },
     "QUICK/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.0348,
+        "RSI": 70.73170731707341
     },
     "MBOX/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.1613,
+        "RSI": 57.499999999999964
     },
     "REQ/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.1183,
+        "RSI": 42.857142857143
     },
     "GHST/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.82,
+        "RSI": 63.63636363636363
     },
     "WAXP/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.04074,
+        "RSI": 48.48484848484851
     },
     "GNO/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 229.7,
+        "RSI": 52.94117647058804
     },
     "XEC/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 3.361e-05,
+        "RSI": 62.79069767441805
     },
     "ELF/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.3868,
+        "RSI": 68.18181818181715
     },
     "DYDX/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 1.178,
+        "RSI": 48.547717842323344
     },
     "IDEX/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.0513,
+        "RSI": 50.0
     },
     "VIDT/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.02642,
+        "RSI": 66.66666666666637
     },
     "USDP/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 1.001,
+        "RSI": null
     },
     "GALA/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.03323,
+        "RSI": 54.237288135593445
     },
     "ILV/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 34.09,
+        "RSI": 58.66666666666675
     },
     "YGG/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.3463,
+        "RSI": 47.16981132075447
     },
     "SYS/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.0989,
+        "RSI": 64.70588235294088
     },
     "DF/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.08115,
+        "RSI": 31.000000000000227
     },
     "FIDA/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.2241,
+        "RSI": 63.21839080459767
     },
     "AGLD/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 1.616,
+        "RSI": 61.76470588235301
     },
     "RAD/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 1.11,
+        "RSI": 53.846153846153776
     },
     "BETA/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.03833,
+        "RSI": 58.6206896551729
     },
     "RARE/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.098,
+        "RSI": 60.000000000000185
     },
     "LAZIO/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 1.352,
+        "RSI": 74.99999999999955
     },
     "CHESS/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.1665,
+        "RSI": 60.00000000000037
     },
     "ADX/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.1822,
+        "RSI": 14.285714285714093
     },
     "AUCTION/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 13.67,
+        "RSI": 58.82352941176471
     },
     "BNX/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.2831,
+        "RSI": 56.45161290322589
     },
     "MOVR/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 10.217,
+        "RSI": 57.57575757575766
     },
     "CITY/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 1.689,
+        "RSI": 63.63636363636363
     },
     "ENS/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 34.35,
+        "RSI": 58.62068965517245
     },
     "QI/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.01441,
+        "RSI": 54.0540540540539
     },
     "PORTO/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 1.349,
+        "RSI": 53.33333333333333
     },
     "POWR/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.2666,
+        "RSI": 50.877192982456016
     },
     "JASMY/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.02753,
+        "RSI": 67.94871794871757
     },
     "AMP/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.007433,
+        "RSI": 68.848167539267
     },
     "PYR/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 2.711,
+        "RSI": 92.85714285714263
     },
     "ALCX/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 16.69,
+        "RSI": 54.838709677419395
     },
     "SANTOS/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 2.892,
+        "RSI": 59.57446808510624
     },
     "BICO/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.2583,
+        "RSI": 57.53424657534231
     },
     "FLUX/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.5198,
+        "RSI": 62.38532110091732
     },
     "FXS/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 2.753,
+        "RSI": 64.83516483516502
     },
     "VOXEL/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.1472,
+        "RSI": 60.465116279069456
     },
     "HIGH/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 1.253,
+        "RSI": 61.53846153846101
     },
     "CVX/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 3.683,
+        "RSI": 51.06382978723392
     },
     "PEOPLE/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.03186,
+        "RSI": 60.86956521739095
     },
     "SPELL/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.0008677,
+        "RSI": 62.0178041543028
     },
     "JOE/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.3454,
+        "RSI": 62.60869565217372
     },
     "ACH/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.02117,
+        "RSI": 66.66666666666708
     },
     "IMX/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 1.199,
+        "RSI": 64.70588235294099
     },
     "GLMR/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.1862,
+        "RSI": 83.33333333333323
     },
     "LOKA/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.1765,
+        "RSI": 66.66666666666687
     },
     "SCRT/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.3635,
+        "RSI": 65.35433070866156
     },
     "API3/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 1.37,
+        "RSI": 72.09302325581424
     },
     "BTTC/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 1.17e-06,
+        "RSI": null
     },
     "ACA/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.0758,
+        "RSI": 57.14285714285728
     },
     "XNO/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 1.183,
+        "RSI": 42.85714285714308
     },
     "WOO/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.1832,
+        "RSI": 62.79069767441841
     },
     "ALPINE/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 1.19,
+        "RSI": 66.66666666666666
     },
     "T/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.02597,
+        "RSI": 54.716981132075645
     },
     "ASTR/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.054,
+        "RSI": 57.14285714285721
     },
     "GMT/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.1072,
+        "RSI": 67.74193548387083
     },
     "KDA/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.8574,
+        "RSI": 67.93103448275886
     },
     "APE/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 1.041,
+        "RSI": 70.00000000000014
     },
     "BSW/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.0601,
+        "RSI": 62.50000000000001
     },
     "BIFI/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 301.4,
+        "RSI": 0.0
     },
     "STEEM/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.2163,
+        "RSI": 62.49999999999985
     },
     "NEXO/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 1.378,
+        "RSI": 71.42857142857105
     },
     "REI/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.0511,
+        "RSI": 64.91228070175464
     },
     "LDO/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 1.897,
+        "RSI": 41.89189189189192
     },
     "OP/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 1.732,
+        "RSI": 61.81818181818169
     },
     "LEVER/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.001596,
+        "RSI": 65.1162790697674
     },
     "STG/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.3808,
+        "RSI": 72.47191011235938
     },
     "LUNC/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 8.524e-05,
+        "RSI": 59.1743119266058
     },
     "GMX/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 22.9,
+        "RSI": 62.90322580645161
     },
     "POLYX/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.2503,
+        "RSI": 62.31884057971007
     },
     "APT/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 8.58,
+        "RSI": 61.904761904762225
     },
     "OSMO/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.4235,
+        "RSI": 72.83950617283955
     },
     "HFT/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.1907,
+        "RSI": 41.25000000000007
     },
     "PHB/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 1.315,
+        "RSI": 72.22222222222223
     },
     "HOOK/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.3098,
+        "RSI": 61.46788990825693
     },
     "MAGIC/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.3768,
+        "RSI": 65.59999999999984
     },
     "HIFI/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.5488,
+        "RSI": 74.71264367816032
     },
     "RPL/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 9.26,
+        "RSI": 68.00000000000023
     },
     "PROS/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.452,
+        "RSI": 32.71028037383185
     },
     "GNS/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 1.487,
+        "RSI": 46.42857142857145
     },
     "SYN/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.5304,
+        "RSI": 57.419354838709644
     },
     "VIB/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.07172,
+        "RSI": 40.00000000000016
     },
     "SSV/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 18.08,
+        "RSI": 63.26530612244892
     },
     "LQTY/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 1.909,
+        "RSI": 63.76811594202909
     },
     "AMB/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.00645,
+        "RSI": 69.23076923076938
     },
     "USTC/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.01606,
+        "RSI": 60.00000000000017
     },
     "GAS/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 4.796,
+        "RSI": 59.55882352941201
     },
     "GLM/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.3483,
+        "RSI": 62.19512195121954
     },
     "PROM/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 5.316,
+        "RSI": 59.21787709497191
     },
     "QKC/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.010233,
+        "RSI": 66.66666666666666
     },
     "UFT/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.2828,
+        "RSI": 50.0
     },
     "ID/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.3977,
+        "RSI": 59.39849624060141
     },
     "ARB/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.7106,
+        "RSI": 61.471861471861295
     },
     "RDNT/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.0503,
+        "RSI": 59.99999999999991
     },
     "WBTC/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 104659.5,
+        "RSI": 72.61735010994619
     },
     "EDU/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.5094,
+        "RSI": 55.07246376811529
     },
     "SUI/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 4.5819,
+        "RSI": 64.89218328840965
     },
     "AERGO/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.1143,
+        "RSI": 57.14285714285705
     },
     "PEPE/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 1.546e-05,
+        "RSI": 67.3076923076924
     },
     "FLOKI/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.00014481,
+        "RSI": 71.40319715808144
     },
     "AST/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.0877,
+        "RSI": 38.888888888889014
     },
     "SNT/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.04148,
+        "RSI": 69.07216494845389
     },
     "COMBO/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.3828,
+        "RSI": 69.69696969696933
     },
     "MAV/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.1527,
+        "RSI": 60.000000000000114
     },
     "PENDLE/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 3.657,
+        "RSI": 61.073825503355714
     },
     "ARKM/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 1.244,
+        "RSI": 66.03773584905653
     },
     "WBETH/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 3456.11,
+        "RSI": 55.53781680303355
     },
     "WLD/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 2.331,
+        "RSI": 32.795698924731084
     },
     "FDUSD/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.9994,
+        "RSI": 69.2307692307689
     },
     "SEI/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.3571,
+        "RSI": 76.92307692307632
     },
     "CYBER/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 2.906,
+        "RSI": 63.076923076923265
     },
     "ARK/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.5408,
+        "RSI": 54.28571428571383
     },
     "CREAM/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 10.22,
+        "RSI": 64.70588235294123
     },
     "IQ/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.007084,
+        "RSI": 56.09756097560947
     },
     "NTRN/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.3094,
+        "RSI": 54.54545454545455
     },
     "TIA/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 4.796,
+        "RSI": 58.095238095238166
     },
     "MEME/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.00871,
+        "RSI": 65.51724137931059
     },
     "ORDI/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 20.54,
+        "RSI": 39.130434782608724
     },
     "BEAMX/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.01974,
+        "RSI": 42.857142857142854
     },
     "PIVX/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.2432,
+        "RSI": 72.22222222222214
     },
     "VIC/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.3391,
+        "RSI": 56.06060606060619
     },
     "BLUR/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.2013,
+        "RSI": 54.54545454545447
     },
     "VANRY/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.0879,
+        "RSI": 63.636363636363754
     },
     "AEUR/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.9632,
+        "RSI": 33.333333333332305
     },
     "JTO/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 3.147,
+        "RSI": 80.50314465408816
     },
     "1000SATS/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.0001315,
+        "RSI": 38.63636363636359
     },
     "BONK/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 3.321e-05,
+        "RSI": 90.85714285714295
     },
     "ACE/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 1.634,
+        "RSI": 61.290322580645025
     },
     "NFP/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.2237,
+        "RSI": 57.1428571428572
     },
     "AI/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.6038,
+        "RSI": 53.84615384615381
     },
     "XAI/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.1932,
+        "RSI": 61.016949152542644
     },
     "MANTA/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.683,
+        "RSI": 50.0
     },
     "ALT/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.0848,
+        "RSI": 56.25
     },
     "JUP/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.8205,
+        "RSI": 79.68749999999999
     },
     "PYTH/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.33,
+        "RSI": 69.85294117647081
     },
     "RONIN/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 1.668,
+        "RSI": 57.14285714285714
     },
     "DYM/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 1.153,
+        "RSI": 72.22222222222223
     },
     "PIXEL/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.1259,
+        "RSI": 66.66666666666666
     },
     "STRK/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.3766,
+        "RSI": 65.0
     },
     "PORTAL/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.2411,
+        "RSI": 58.333333333333435
     },
     "PDA/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.03545,
+        "RSI": 59.25925925925955
     },
     "AXL/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.6081,
+        "RSI": 59.01639344262288
     },
     "WIF/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 1.44,
+        "RSI": 76.31578947368422
     },
     "METIS/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 34.42,
+        "RSI": 59.793814432989876
     },
     "AEVO/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.2948,
+        "RSI": 58.333333333333385
     },
     "BOME/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.004268,
+        "RSI": 77.0186335403731
     },
     "ETHFI/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 1.76,
+        "RSI": 51.92307692307691
     },
     "ENA/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.8846,
+        "RSI": 54.87012987012987
     },
     "W/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.2343,
+        "RSI": 58.97435897435902
     },
     "TNSR/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.3776,
+        "RSI": 70.0
     },
     "SAGA/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 1.2934,
+        "RSI": 61.212121212121254
     },
     "TAO/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 411.9,
+        "RSI": 66.40624999999994
     },
     "OMNI/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 9.37,
+        "RSI": 65.62499999999984
     },
     "REZ/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.02938,
+        "RSI": 57.69230769230771
     },
     "BB/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.3057,
+        "RSI": 56.88073394495422
     },
     "NOT/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.005306,
+        "RSI": 58.82352941176465
     },
     "IO/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 3.104,
+        "RSI": 67.9487179487179
     },
     "ZK/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.1594,
+        "RSI": 63.79310344827585
     },
     "LISTA/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.3206,
+        "RSI": 65.74074074074068
     },
     "ZRO/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 4.084,
+        "RSI": 70.86092715231769
     },
     "G/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.028,
+        "RSI": 63.76811594202879
     },
     "BANANA/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 43.27,
+        "RSI": 66.3157894736844
     },
     "RENDER/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 7.217,
+        "RSI": 72.94117647058825
     },
     "TON/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 5.313,
+        "RSI": 77.46478873239425
     },
     "DOGS/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.0003473,
+        "RSI": 66.40624999999986
     },
     "EURI/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 1.0424,
+        "RSI": 91.66666666666667
     },
     "SLF/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.2414,
+        "RSI": 72.1518987341772
     },
     "POL/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.4465,
+        "RSI": 69.64285714285732
     },
     "NEIRO/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.00059385,
+        "RSI": 65.56195965417868
     },
     "TURBO/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.006503,
+        "RSI": 69.8757763975156
     },
     "1MBABYDOGE/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.0022619,
+        "RSI": 76.47058823529437
     },
     "CATI/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.2688,
+        "RSI": 62.39316239316223
     },
     "HMSTR/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.002977,
+        "RSI": 62.12121212121215
     },
     "EIGEN/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 2.621,
+        "RSI": 61.5384615384616
     },
     "SCR/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.767,
+        "RSI": 61.53846153846153
     },
     "BNSOL/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 275.1,
+        "RSI": 94.51219512195135
     },
     "LUMIA/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 1.001,
+        "RSI": 61.29032258064518
     },
     "KAIA/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.2153,
+        "RSI": 69.6969696969698
     },
     "COW/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.6701,
+        "RSI": 76.92307692307708
     },
     "CETUS/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.2461,
+        "RSI": 58.82352941176483
     },
     "PNUT/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.3614,
+        "RSI": 67.3640167364016
     },
     "ACT/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.1808,
+        "RSI": 65.59139784946228
     },
     "USUAL/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.3785,
+        "RSI": 51.243781094527364
     },
     "THE/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.8436,
+        "RSI": 66.36636636636639
     },
     "ACX/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.4031,
+        "RSI": 52.87356321839083
     },
     "ORCA/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 3.611,
+        "RSI": 81.22605363984678
     },
     "MOVE/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.6975,
+        "RSI": 61.53846153846169
     },
     "ME/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 2.087,
+        "RSI": 64.28571428571415
     },
     "VELODROME/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.1114,
+        "RSI": 74.19354838709666
     },
     "VANA/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 10.684,
+        "RSI": 40.188679245282785
     },
     "1000CAT/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.02204,
+        "RSI": 79.46428571428567
     },
     "PENGU/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.025984,
+        "RSI": 65.3868871825162
     },
     "BIO/USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.2615,
+        "RSI": 43.70370370370384
     },
     "BTC/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 101615.5,
+        "RSI": 49.48633929867174
     },
     "ETH/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 3504.74,
+        "RSI": 53.34475755267834
     },
     "BCH/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 449.19,
+        "RSI": null
     },
     "XRP/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 3.7502,
+        "RSI": 55.59543530277931
     },
     "EOS/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.838,
+        "RSI": 13.432835820895534
     },
     "LTC/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 120.0,
+        "RSI": null
     },
     "TRX/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.25093,
+        "RSI": 0.0
     },
     "ETC/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 26.588,
+        "RSI": null
     },
     "LINK/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 26.8,
+        "RSI": null
     },
     "XLM/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.44088,
+        "RSI": null
     },
     "ADA/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.98,
+        "RSI": null
     },
     "DASH/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 37.71,
+        "RSI": null
     },
     "ZEC/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 44.0,
+        "RSI": null
     },
     "XTZ/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 1.25,
+        "RSI": null
     },
     "BNB/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 700.0,
+        "RSI": 73.09941520467802
     },
     "ATOM/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 6.6,
+        "RSI": null
     },
     "ONT/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.2,
+        "RSI": null
     },
     "IOTA/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.396,
+        "RSI": null
     },
     "BAT/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.2419,
+        "RSI": null
     },
     "VET/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.0447,
+        "RSI": null
     },
     "NEO/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 15.013,
+        "RSI": null
     },
     "QTUM/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 3.029,
+        "RSI": null
     },
     "IOST/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.006514,
+        "RSI": null
     },
     "THETA/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 1.9,
+        "RSI": null
     },
     "ALGO/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.4056,
+        "RSI": null
     },
     "ZIL/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.0206,
+        "RSI": null
     },
     "KNC/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.5788,
+        "RSI": null
     },
     "ZRX/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.4977,
+        "RSI": null
     },
     "COMP/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 71.37,
+        "RSI": null
     },
     "OMG/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.335,
+        "RSI": null
     },
     "DOGE/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.35003,
+        "RSI": 39.99999999999999
     },
     "SXP/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.301,
+        "RSI": null
     },
     "KAVA/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.5,
+        "RSI": null
     },
     "BAND/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 1.3243,
+        "RSI": null
     },
     "RLC/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 1.99,
+        "RSI": null
     },
     "WAVES/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 1.5,
+        "RSI": null
     },
     "MKR/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 1317.7,
+        "RSI": null
     },
     "SNX/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 1.805,
+        "RSI": null
     },
     "DOT/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 6.399,
+        "RSI": null
     },
     "DEFI/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 1109.1,
+        "RSI": null
     },
     "YFI/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 7666.9,
+        "RSI": null
     },
     "BAL/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 2.418,
+        "RSI": null
     },
     "CRV/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.826,
+        "RSI": null
     },
     "TRB/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 65.91,
+        "RSI": null
     },
     "RUNE/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 3.248,
+        "RSI": null
     },
     "SUSHI/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 1.28,
+        "RSI": null
     },
     "EGLD/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 33.9,
+        "RSI": null
     },
     "SOL/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 274.6,
+        "RSI": 50.0
     },
     "ICX/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.1628,
+        "RSI": null
     },
     "STORJ/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.4008,
+        "RSI": null
     },
     "UNI/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 13.0,
+        "RSI": 100.0
     },
     "AVAX/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 38.54,
+        "RSI": null
     },
     "FTM/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.817,
+        "RSI": null
     },
     "ENJ/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.1914,
+        "RSI": null
     },
     "FLM/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.0638,
+        "RSI": null
     },
     "TOMO/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 1.31,
+        "RSI": null
     },
     "REN/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.04781,
+        "RSI": null
     },
     "KSM/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 28.07,
+        "RSI": null
     },
     "NEAR/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 4.846,
+        "RSI": null
     },
     "AAVE/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 353.61,
+        "RSI": null
     },
     "FIL/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 4.749,
+        "RSI": null
     },
     "RSR/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.01387,
+        "RSI": null
     },
     "LRC/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.1822,
+        "RSI": null
     },
     "OCEAN/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.64,
+        "RSI": null
     },
     "BEL/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.5344,
+        "RSI": null
     },
     "CTK/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 1.209,
+        "RSI": null
     },
     "AXS/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 5.772,
+        "RSI": null
     },
     "ALPHA/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.07225,
+        "RSI": null
     },
     "ZEN/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 24.55,
+        "RSI": null
     },
     "SKL/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.04716,
+        "RSI": null
     },
     "GRT/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.20049,
+        "RSI": null
     },
     "BNT/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.72,
+        "RSI": null
     },
     "1INCH/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.3833,
+        "RSI": null
     },
     "UNFI/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 1.771,
+        "RSI": null
     },
     "CHZ/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.0838,
+        "RSI": null
     },
     "SAND/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.68,
+        "RSI": null
     },
     "ANKR/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.03885,
+        "RSI": null
     },
     "LIT/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.78,
+        "RSI": null
     },
     "REEF/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.00101,
+        "RSI": null
     },
     "RVN/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.0179,
+        "RSI": null
     },
     "SFP/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.6735,
+        "RSI": null
     },
     "XEM/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.0289,
+        "RSI": null
     },
     "BTCST/USDT:USDT": {
         "error": "binance {\"code\":-1122,\"msg\":\"Invalid symbol status.\"}"
     },
     "COTI/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.107,
+        "RSI": null
     },
     "CHR/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.1894,
+        "RSI": null
     },
     "MANA/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.43,
+        "RSI": null
     },
     "ALICE/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 1.18,
+        "RSI": null
     },
     "HBAR/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.34095,
+        "RSI": null
     },
     "ONE/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.02349,
+        "RSI": null
     },
     "LINA/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.00449,
+        "RSI": null
     },
     "STMX/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.00636,
+        "RSI": null
     },
     "DENT/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.001496,
+        "RSI": null
     },
     "CELR/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.01683,
+        "RSI": null
     },
     "HOT/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.002174,
+        "RSI": null
     },
     "MTL/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 1.2345,
+        "RSI": null
     },
     "OGN/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.1045,
+        "RSI": null
     },
     "NKN/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.08523,
+        "RSI": null
     },
     "DGB/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.02811,
+        "RSI": null
     },
     "1000SHIB/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.020722,
+        "RSI": null
     },
     "BAKE/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.2158,
+        "RSI": null
     },
     "GTC/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.55,
+        "RSI": null
     },
     "BTCDOM/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 3000.0,
+        "RSI": null
     },
     "MASK/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 2.72,
+        "RSI": null
     },
     "IOTX/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.0374,
+        "RSI": null
     },
     "AUDIO/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.1755,
+        "RSI": null
     },
     "C98/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.1317,
+        "RSI": null
     },
     "ATA/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.12,
+        "RSI": null
     },
     "DYDX/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 1.308,
+        "RSI": null
     },
     "1000XEC/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.03382,
+        "RSI": null
     },
     "GALA/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.03479,
+        "RSI": null
     },
     "CELO/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.589,
+        "RSI": null
     },
     "AR/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 17.039,
+        "RSI": null
     },
     "KLAY/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.1286,
+        "RSI": null
     },
     "ARPA/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.04566,
+        "RSI": null
     },
     "CTSI/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.1573,
+        "RSI": null
     },
     "LPT/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 13.0,
+        "RSI": null
     },
     "ENS/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 31.77,
+        "RSI": null
     },
     "PEOPLE/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.03,
+        "RSI": null
     },
     "ANT/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 8.478,
+        "RSI": null
     },
     "ROSE/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.06756,
+        "RSI": null
     },
     "DUSK/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.24216,
+        "RSI": null
     },
     "FLOW/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.695,
+        "RSI": null
     },
     "IMX/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 1.1617,
+        "RSI": null
     },
     "API3/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 1.344,
+        "RSI": null
     },
     "GMT/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.1235,
+        "RSI": null
     },
     "APE/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 1.0001,
+        "RSI": null
     },
     "WOO/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.18865,
+        "RSI": null
     },
     "JASMY/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.0255,
+        "RSI": null
     },
     "DAR/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.1336,
+        "RSI": null
     },
     "OP/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 1.739,
+        "RSI": null
     },
     "XMR/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 195.0,
+        "RSI": null
     },
     "INJ/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 22.87,
+        "RSI": null
     },
     "STG/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.4065,
+        "RSI": null
     },
     "SPELL/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.00068,
+        "RSI": null
     },
     "1000LUNC/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.0798,
+        "RSI": null
     },
     "LUNA2/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.35,
+        "RSI": null
     },
     "LDO/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 1.83,
+        "RSI": null
     },
     "CVX/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 2.31,
+        "RSI": null
     },
     "FOOTBALL/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 610.0,
+        "RSI": null
     },
     "APT/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 8.002,
+        "RSI": null
     },
     "QNT/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 115.0,
+        "RSI": null
     },
     "BLUEBIRD/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 17.0,
+        "RSI": null
     },
     "FXS/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 3.23,
+        "RSI": null
     },
     "HOOK/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.305,
+        "RSI": null
     },
     "MAGIC/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.4237,
+        "RSI": null
     },
     "T/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.02769,
+        "RSI": null
     },
     "HIGH/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 1.3337,
+        "RSI": null
     },
     "MINA/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.59,
+        "RSI": null
     },
     "ASTR/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.05055,
+        "RSI": null
     },
     "PHB/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 1.0609,
+        "RSI": null
     },
     "AGIX/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.55,
+        "RSI": null
     },
     "FET/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 1.08,
+        "RSI": null
     },
     "GMX/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 22.04,
+        "RSI": null
     },
     "CFX/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.1553,
+        "RSI": null
     },
     "STX/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 1.2431,
+        "RSI": null
     },
     "BNX/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.375,
+        "RSI": null
     },
     "ACH/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.02316,
+        "RSI": null
     },
     "SSV/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 17.772,
+        "RSI": null
     },
     "CKB/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.0085,
+        "RSI": null
     },
     "PERP/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.7945,
+        "RSI": null
     },
     "LQTY/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 2.1,
+        "RSI": null
     },
     "USDC/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.88001,
+        "RSI": null
     },
     "ARB/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.7059,
+        "RSI": null
     },
     "ID/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.3903,
+        "RSI": null
     },
     "JOE/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.3526,
+        "RSI": null
     },
     "AMB/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.00737,
+        "RSI": null
     },
     "LEVER/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.001375,
+        "RSI": null
     },
     "TRU/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.07315,
+        "RSI": null
     },
     "RDNT/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.05,
+        "RSI": null
     },
     "HFT/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.2245,
+        "RSI": null
     },
     "XVS/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 8.527,
+        "RSI": null
     },
     "BLUR/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.196,
+        "RSI": null
     },
     "EDU/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.5252,
+        "RSI": null
     },
     "IDEX/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.056,
+        "RSI": null
     },
     "1000PEPE/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.017,
+        "RSI": null
     },
     "1000FLOKI/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.14524,
+        "RSI": null
     },
     "RAD/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 1.82,
+        "RSI": null
     },
     "UMA/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 2.3,
+        "RSI": null
     },
     "KEY/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.003285,
+        "RSI": null
     },
     "COMBO/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.4757,
+        "RSI": null
     },
     "SUI/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 4.5,
+        "RSI": null
     },
     "NMR/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 13.174,
+        "RSI": null
     },
     "MAV/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.1334,
+        "RSI": null
     },
     "MDT/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.05155,
+        "RSI": null
     },
     "XVG/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.0126,
+        "RSI": null
     },
     "WLD/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 1.83,
+        "RSI": null
     },
     "PENDLE/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 3.8,
+        "RSI": null
     },
     "ARKM/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 1.078,
+        "RSI": null
     },
     "AGLD/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 2.1703,
+        "RSI": null
     },
     "YGG/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.3101,
+        "RSI": null
     },
     "DODOX/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.1374,
+        "RSI": null
     },
     "OXT/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.11354,
+        "RSI": null
     },
     "SEI/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.386,
+        "RSI": null
     },
     "CYBER/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 2.44,
+        "RSI": null
     },
     "HIFI/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.6265,
+        "RSI": null
     },
     "ARK/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.6289,
+        "RSI": null
     },
     "GLMR/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.3135,
+        "RSI": null
     },
     "BICO/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.2778,
+        "RSI": null
     },
     "STRAX/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 1.5011,
+        "RSI": null
     },
     "LOOM/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.06636,
+        "RSI": null
     },
     "BIGTIME/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.1063,
+        "RSI": null
     },
     "BOND/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.67,
+        "RSI": null
     },
     "ORBS/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.024,
+        "RSI": null
     },
     "STPT/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.04598,
+        "RSI": null
     },
     "WAXP/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.0466,
+        "RSI": null
     },
     "BSV/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 51.27,
+        "RSI": null
     },
     "RIF/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.09609,
+        "RSI": null
     },
     "POLYX/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.243,
+        "RSI": null
     },
     "GAS/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 5.48,
+        "RSI": null
     },
     "POWR/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.305,
+        "RSI": null
     },
     "SLP/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.003752,
+        "RSI": null
     },
     "TIA/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 5.84,
+        "RSI": null
     },
     "SNT/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.04,
+        "RSI": null
     },
     "CAKE/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 2.1602,
+        "RSI": null
     },
     "MEME/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.0085,
+        "RSI": null
     },
     "TOKEN/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.03908,
+        "RSI": null
     },
     "ORDI/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 25.001,
+        "RSI": null
     },
     "STEEM/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.2172,
+        "RSI": null
     },
     "BADGER/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 4.72,
+        "RSI": null
     },
     "ILV/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 31.63,
+        "RSI": null
     },
     "NTRN/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.3355,
+        "RSI": null
     },
     "MBL/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.004,
+        "RSI": null
     },
     "KAS/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.12583,
+        "RSI": null
     },
     "BEAMX/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.027381,
+        "RSI": null
     },
     "1000BONK/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.031045,
+        "RSI": null
     },
     "PYTH/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.3541,
+        "RSI": null
     },
     "SUPER/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 1.049,
+        "RSI": null
     },
     "USTC/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.01656,
+        "RSI": null
     },
     "ONG/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.3741,
+        "RSI": null
     },
     "ETHW/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 2.989,
+        "RSI": null
     },
     "JTO/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 2.59,
+        "RSI": null
     },
     "1000SATS/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.000124,
+        "RSI": null
     },
     "AUCTION/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 14.0,
+        "RSI": null
     },
     "1000RATS/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.0333,
+        "RSI": null
     },
     "ACE/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 1.79,
+        "RSI": null
     },
     "MOVR/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 8.05,
+        "RSI": null
     },
     "TWT/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 1.2641,
+        "RSI": null
     },
     "NFP/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.2566,
+        "RSI": null
     },
     "AI/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.57571,
+        "RSI": null
     },
     "XAI/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.1843,
+        "RSI": null
     },
     "WIF/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 1.201,
+        "RSI": null
     },
     "MANTA/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.62,
+        "RSI": null
     },
     "ONDO/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 1.35,
+        "RSI": null
     },
     "LSK/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.8886,
+        "RSI": null
     },
     "ALT/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.10466,
+        "RSI": null
     },
     "JUP/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.8985,
+        "RSI": 0.0
     },
     "ZETA/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.4669,
+        "RSI": null
     },
     "RONIN/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 1.625,
+        "RSI": null
     },
     "DYM/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 1.176,
+        "RSI": null
     },
     "OM/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 3.7923,
+        "RSI": null
     },
     "PIXEL/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.1365,
+        "RSI": null
     },
     "STRK/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.4268,
+        "RSI": null
     },
     "MAVIA/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 1.888,
+        "RSI": null
     },
     "GLM/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.3751,
+        "RSI": null
     },
     "PORTAL/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.2745,
+        "RSI": null
     },
     "TON/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 5.0342,
+        "RSI": null
     },
     "AXL/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.6236,
+        "RSI": null
     },
     "MYRO/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.054,
+        "RSI": null
     },
     "METIS/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 37.2,
+        "RSI": null
     },
     "AEVO/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.3644,
+        "RSI": null
     },
     "VANRY/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.11777,
+        "RSI": null
     },
     "BOME/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.004069,
+        "RSI": null
     },
     "ETHFI/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 1.796,
+        "RSI": null
     },
     "ENA/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.81,
+        "RSI": null
     },
     "W/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.1955,
+        "RSI": null
     },
     "TNSR/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.3851,
+        "RSI": null
     },
     "SAGA/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 1.02,
+        "RSI": null
     },
     "TAO/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 458.42,
+        "RSI": null
     },
     "OMNI/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 10.0,
+        "RSI": null
     },
     "REZ/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.0285,
+        "RSI": null
     },
     "BB/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.3269,
+        "RSI": null
     },
     "NOT/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.00533,
+        "RSI": null
     },
     "TURBO/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.006439,
+        "RSI": null
     },
     "IO/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 2.983,
+        "RSI": null
     },
     "ZK/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.1723,
+        "RSI": null
     },
     "MEW/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.004914,
+        "RSI": null
     },
     "LISTA/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.3,
+        "RSI": null
     },
     "ZRO/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 4.034,
+        "RSI": null
     },
     "RENDER/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 6.482,
+        "RSI": null
     },
     "BANANA/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 33.0,
+        "RSI": null
     },
     "RARE/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.0879,
+        "RSI": null
     },
     "G/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.036,
+        "RSI": null
     },
     "SYN/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.5633,
+        "RSI": null
     },
     "SYS/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.0775,
+        "RSI": null
     },
     "VOXEL/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.1516,
+        "RSI": null
     },
     "BRETT/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.1056,
+        "RSI": null
     },
     "ALPACA/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.1331,
+        "RSI": null
     },
     "POPCAT/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.5,
+        "RSI": null
     },
     "SUN/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.02103,
+        "RSI": null
     },
     "VIDT/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.028,
+        "RSI": null
     },
     "NULS/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.3131,
+        "RSI": null
     },
     "DOGS/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.0004853,
+        "RSI": null
     },
     "MBOX/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.16,
+        "RSI": null
     },
     "CHESS/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.2064,
+        "RSI": null
     },
     "FLUX/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.53,
+        "RSI": null
     },
     "BSW/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.06752,
+        "RSI": null
     },
     "QUICK/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.04194,
+        "RSI": null
     },
     "NEIROETH/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.0323,
+        "RSI": null
     },
     "RPL/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 12.1,
+        "RSI": null
     },
     "AERGO/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.1144,
+        "RSI": null
     },
     "POL/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.4339,
+        "RSI": null
     },
     "UXLINK/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.9694,
+        "RSI": null
     },
     "NEIRO/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.00086002,
+        "RSI": null
     },
     "1MBABYDOGE/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.002337,
+        "RSI": null
     },
     "KDA/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.64,
+        "RSI": null
     },
     "FIDA/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.202,
+        "RSI": null
     },
     "FIO/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.03,
+        "RSI": null
     },
     "CATI/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.3003,
+        "RSI": null
     },
     "GHST/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.945,
+        "RSI": null
     },
     "LOKA/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.1951,
+        "RSI": null
     },
     "ETH/USDT:USDT-250328": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 4000.0,
+        "RSI": null
     },
     "BTC/USDT:USDT-250328": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 98806.8,
+        "RSI": 100.0
     },
     "HMSTR/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.003146,
+        "RSI": null
     },
     "REI/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.07,
+        "RSI": null
     },
     "COS/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.0072,
+        "RSI": null
     },
     "EIGEN/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 3.2,
+        "RSI": null
     },
     "DIA/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.81,
+        "RSI": null
     },
     "1000CAT/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.02995,
+        "RSI": null
     },
     "SCR/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.861,
+        "RSI": null
     },
     "GOAT/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.29,
+        "RSI": null
     },
     "MOODENG/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.15005,
+        "RSI": null
     },
     "SAFE/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.9201,
+        "RSI": null
     },
     "SANTOS/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 3.63,
+        "RSI": null
     },
     "TROY/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.00325,
+        "RSI": null
     },
     "PONKE/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.32009,
+        "RSI": null
     },
     "CETUS/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.30244,
+        "RSI": null
     },
     "COW/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.68,
+        "RSI": null
     },
     "1000000MOG/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 2.0956,
+        "RSI": null
     },
     "GRASS/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 2.1494,
+        "RSI": null
     },
     "DRIFT/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 1.198,
+        "RSI": null
     },
     "SWELL/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.0314,
+        "RSI": null
     },
     "PNUT/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.39,
+        "RSI": null
     },
     "ACT/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.18801,
+        "RSI": 100.0
     },
     "HIPPO/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.0062,
+        "RSI": null
     },
     "1000X/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.13564,
+        "RSI": null
     },
     "DEGEN/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.00848,
+        "RSI": null
     },
     "BAN/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.056,
+        "RSI": null
     },
     "AKT/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 3.917,
+        "RSI": null
     },
     "SLERF/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.172,
+        "RSI": null
     },
     "SCRT/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.3397,
+        "RSI": null
     },
     "1000WHY/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 7.7e-05,
+        "RSI": null
     },
     "1000CHEEMS/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.00088,
+        "RSI": null
     },
     "THE/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.94,
+        "RSI": null
     },
     "MORPHO/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 4.06,
+        "RSI": null
     },
     "CHILLGUY/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.1811,
+        "RSI": null
     },
     "KAIA/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.2295,
+        "RSI": null
     },
     "AERO/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 1.7532,
+        "RSI": null
     },
     "ACX/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.3993,
+        "RSI": null
     },
     "ORCA/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 3.512,
+        "RSI": null
     },
     "MOVE/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.7745,
+        "RSI": null
     },
     "RAYSOL/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 4.5116,
+        "RSI": null
     },
     "VIRTUAL/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 2.9862,
+        "RSI": null
     },
     "SPX/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 1.45,
+        "RSI": null
     },
     "KOMA/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.08173,
+        "RSI": null
     },
     "ME/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 2.76,
+        "RSI": null
     },
     "ABCCC/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.14767,
+        "RSI": null
     },
     "AVA/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 1.1349,
+        "RSI": null
     },
     "DEGO/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 3.4993,
+        "RSI": null
     },
     "VELODROME/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.135,
+        "RSI": null
     },
     "MOCA/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.215,
+        "RSI": null
     },
     "VANA/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 12.5,
+        "RSI": null
     },
     "PENGU/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.02222,
+        "RSI": null
     },
     "LUMIA/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 1.811,
+        "RSI": null
     },
     "USUAL/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.3866,
+        "RSI": null
     },
     "KMNO/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.18377,
+        "RSI": null
     },
     "CGPT/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.24657,
+        "RSI": null
     },
     "AIXBT/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.88129,
+        "RSI": null
     },
     "FARTCOIN/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 2.0,
+        "RSI": null
     },
     "HIVE/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.39779,
+        "RSI": null
     },
     "ETH/USDT:USDT-250627": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 3009.8,
+        "RSI": null
     },
     "DEXE/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 18.0,
+        "RSI": null
     },
     "BTC/USDT:USDT-250627": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 83899.0,
+        "RSI": null
     },
     "PHA/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.27,
+        "RSI": null
     },
     "DF/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.09799,
+        "RSI": null
     },
     "GRIFFAIN/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.53837,
+        "RSI": null
     },
     "AI16Z/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 2.0444,
+        "RSI": null
     },
     "ZEREBRO/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.6291,
+        "RSI": null
     },
     "BIO/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.2474,
+        "RSI": null
     },
     "COOKIE/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.3911,
+        "RSI": null
     },
     "ALCH/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.095,
+        "RSI": null
     },
     "SWARMS/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.1952,
+        "RSI": null
     },
     "SONIC/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 1.0447,
+        "RSI": null
     },
     "D/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.10276,
+        "RSI": null
     },
     "PROM/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 8.351,
+        "RSI": null
     },
     "S/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.7943,
+        "RSI": null
     },
     "SOLV/USDT:USDT": {
         "error": "binance {\"code\":-1122,\"msg\":\"Invalid symbol status.\"}"
     },
     "ARC/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.5,
+        "RSI": null
     },
     "AVAAI/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.23673,
+        "RSI": null
     },
     "TRUMP/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 38.93,
+        "RSI": null
     },
     "MELANIA/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 4.55,
+        "RSI": null
     },
     "VTHO/USDT:USDT": {
-        "error": "The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        "timestamp": "2025-01-22T20:20:00",
+        "close": 0.007472,
+        "RSI": null
     }
 }

@@ -14,32 +14,35 @@ def fetch_ohlcv(exchange, symbol, timeframe='5m', limit=100):
 
 def calculate_rsi(data, period=14):
     """Calcule le RSI à partir des prix de clôture."""
+    if len(data) < period:
+        raise ValueError("Pas assez de données pour calculer le RSI")
+
     delta = data['close'].diff()
     gain = delta.where(delta > 0, 0).rolling(window=period).mean()
     loss = -delta.where(delta < 0, 0).rolling(window=period).mean()
     rs = gain / loss
     rsi = 100 - (100 / (1 + rs))
-    if rsi is not None and not (rsi != rsi):
-        return rsi
-    else:
-        return 0
+
+    return rsi.iloc[-1] if not rsi.isna().iloc[-1] else None
+
 
 def calculate_all_rsi(exchange, symbols, timeframe='5m', period=14):
-    """Calcule le RSI pour toutes les cryptos spécifiées."""
-    count = 0
     results = {}
-    for symbol in symbols:
-        count += 1
-        print(count, "sur ", len(symbols))
+    for idx, symbol in enumerate(symbols):
+        print(f"{idx + 1}/{len(symbols)} : Calcul du RSI pour {symbol}")
         try:
-            df = fetch_ohlcv(exchange, symbol, timeframe=timeframe, limit=period + 1)
+            df = fetch_ohlcv(exchange, symbol, timeframe, limit=period + 1)
+            if len(df) < period + 1:
+                raise ValueError(f"Pas assez de données pour {symbol}")
+
             df['RSI'] = calculate_rsi(df, period)
             results[symbol] = {
-                'timestamp': df['timestamp'].iloc[-1].isoformat(),
+                'timestamp': pd.to_datetime(df['timestamp'].iloc[-1], unit='ms').isoformat(),
                 'close': df['close'].iloc[-1],
-                'RSI': df['RSI'].iloc[-1]
-            }
+                'RSI': df['RSI'].iloc[-1]  
+}
         except Exception as e:
+            print(f"Erreur pour {symbol} : {e}")
             results[symbol] = {'error': str(e)}
     return results
 
