@@ -32,6 +32,7 @@ def initialize_exchange(mode="test"):
 def rsi_worker(exchange):
     """Thread pour calculer les RSI toutes les 5 minutes."""
     symbols = [market['symbol'] for market in exchange.load_markets().values() if market['quote'] == 'USDT']
+    print(symbols)
     while True:
         try:
             print("Test")
