@@ -1,7 +1,9 @@
 import ccxt
 import pandas as pd
-import os
 import json
+import os
+
+RSI_FILE = "saves/rsi_data.json"
 
 def fetch_ohlcv(exchange, symbol, timeframe='5m', limit=100):
     """Récupère les données OHLCV pour une crypto donnée."""
@@ -21,8 +23,11 @@ def calculate_rsi(data, period=14):
 
 def calculate_all_rsi(exchange, symbols, timeframe='5m', period=14):
     """Calcule le RSI pour toutes les cryptos spécifiées."""
+    count = 0
     results = {}
     for symbol in symbols:
+        count += 1
+        print(count, "sur ", len(symbols))
         try:
             df = fetch_ohlcv(exchange, symbol, timeframe=timeframe, limit=period + 1)
             df['RSI'] = calculate_rsi(df, period)
@@ -35,14 +40,14 @@ def calculate_all_rsi(exchange, symbols, timeframe='5m', period=14):
             results[symbol] = {'error': str(e)}
     return results
 
-def save_rsi_data(data, filepath='Data/rsi_data.json'):
+def save_rsi_data(data):
     """Sauvegarde les données RSI dans un fichier JSON."""
-    with open(filepath, 'w') as file:
+    with open(RSI_FILE, 'w') as file:
         json.dump(data, file, indent=4)
 
-def load_rsi_data(filepath='Data/rsi_data.json'):
+def load_rsi_data():
     """Charge les données RSI depuis un fichier JSON."""
-    if os.path.exists(filepath):
-        with open(filepath, 'r') as file:
+    if os.path.exists(RSI_FILE):
+        with open(RSI_FILE, 'r') as file:
             return json.load(file)
     return {}

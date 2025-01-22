@@ -1,20 +1,17 @@
-from flask import Flask, jsonify, request
+from flask import Flask, jsonify
 from flask_cors import CORS
 import os
 import json
 
 app = Flask(__name__)
-CORS(app)  # Permet toutes les origines par défaut
+CORS(app)
 SAVE_DIR = "saves"
-
-@app.before_request
-def log_request_info():
-    print(f"Requête reçue : {request.method} {request.url}")
+RSI_FILE = os.path.join(SAVE_DIR, "rsi_data.json")
 
 @app.route('/saves', methods=['GET'])
 def list_saves():
     """Liste toutes les sauvegardes disponibles."""
-    saves = [f.replace('.json', '') for f in os.listdir(SAVE_DIR) if f.endswith('.json')]
+    saves = [f.replace('.json', '') for f in os.listdir(SAVE_DIR) if f.endswith('.json') and f != 'rsi_data.json']
     return jsonify({"saves": saves})
 
 @app.route('/save/<string:name>', methods=['GET'])
@@ -27,15 +24,24 @@ def get_save(name):
         data = json.load(file)
     return jsonify(data)
 
-@app.route('/save', methods=['POST'])
-def create_save():
-    """Crée une nouvelle sauvegarde."""
-    content = request.json
-    name = content.get("name")
-    portfolio = content.get("portfolio")
-    if not name or not portfolio:
-        return jsonify({"error": "Nom ou portefeuille manquant"}), 400
-    filename = os.path.join(SAVE_DIR, f"{name}.json")
-    with open(filename, "w") as file:
-        json.dump(portfolio, file, indent=4)
-    return jsonify({"message": f"Sauvegarde {name} créée avec succès."})
+@app.route('/rsi', methods=['GET'])
+def get_all_rsi():
+    """Retourne les données RSI de toutes les cryptos."""
+    if os.path.exists(RSI_FILE):
+        with open(RSI_FILE, 'r') as file:
+            data = json.load(file)
+        return jsonify(data)
+    return jsonify({"error": "Aucune donnée RSI disponible."}), 404
+
+@app.route('/rsi/<symbol>', methods=['GET'])
+def get_rsi_for_symbol(symbol):
+    """Retourne les données RSI pour une crypto spécifique."""
+    if os.path.exists(RSI_FILE):
+        with open(RSI_FILE, 'r') as file:
+            data = json.load(file)
+        if symbol in data:
+            return jsonify(data[symbol])
+    return jsonify({"error": f"RSI introuvable pour {symbol}."}), 404
+
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=5000)
