@@ -1,9 +1,15 @@
 from flask import Flask, jsonify, request
+from flask_cors import CORS
 import os
 import json
 
 app = Flask(__name__)
+CORS(app)
 SAVE_DIR = "saves"
+
+@app.before_request
+def log_request_info():
+    print(f"Requête reçue : {request.method} {request.url}")
 
 @app.route('/saves', methods=['GET'])
 def list_saves():
