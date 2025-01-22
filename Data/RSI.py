@@ -19,27 +19,29 @@ def calculate_rsi(data, period=14):
     loss = -delta.where(delta < 0, 0).rolling(window=period).mean()
     rs = gain / loss
     rsi = 100 - (100 / (1 + rs))
-    return rsi
+    if rsi is not None and not (rsi != rsi):
+        return rsi
+    else:
+        return 0
 
-def calculate_all_rsi(exchange, symbols):
-    rsi_data = {}
+def calculate_all_rsi(exchange, symbols, timeframe='5m', period=14):
+    """Calcule le RSI pour toutes les cryptos spécifiées."""
+    count = 0
+    results = {}
     for symbol in symbols:
+        count += 1
+        print(count, "sur ", len(symbols))
         try:
-            ohlcv = exchange.fetch_ohlcv(symbol, '5m', limit=14)
-            if len(ohlcv) < 14:
-                print(f"Pas assez de données pour {symbol}")
-                continue
-            close_prices = [candle[4] for candle in ohlcv]
-            rsi = calculate_rsi(close_prices)
-            if rsi is not None and not (rsi != rsi):
-                rsi_data[symbol] = {
-                    "RSI": rsi,
-                    "close": close_prices[-1],
-                    "timestamp": exchange.iso8601(ohlcv[-1][0])
-                }
+            df = fetch_ohlcv(exchange, symbol, timeframe=timeframe, limit=period + 1)
+            df['RSI'] = calculate_rsi(df, period)
+            results[symbol] = {
+                'timestamp': df['timestamp'].iloc[-1].isoformat(),
+                'close': df['close'].iloc[-1],
+                'RSI': df['RSI'].iloc[-1]
+            }
         except Exception as e:
-            print(f"Erreur lors du calcul du RSI pour {symbol}: {e}")
-    return rsi_data
+            results[symbol] = {'error': str(e)}
+    return results
 
 def save_rsi_data(data):
     """Sauvegarde les données RSI dans un fichier JSON."""
