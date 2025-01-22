@@ -78,13 +78,10 @@ def fetch_bot_info(exchange, test_portfolio=None):
 # Choisir le mode au lancement
 mode = input("Choisissez le mode ('real' ou 'test') : ").strip().lower()
 try:
-    # Initialisation de l'API Binance
     exchange = initialize_exchange(mode)
 
-    # Synchroniser l'horloge avec Binance
     exchange.load_time_difference()
 
-    # Si mode test, demander une sauvegarde ou en créer une nouvelle
     test_portfolio = None
     if mode == "test":
         action = input("Voulez-vous charger une sauvegarde existante ('load') ou en créer une nouvelle ('new') ? ").strip().lower()
