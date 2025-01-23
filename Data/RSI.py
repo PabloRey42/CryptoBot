@@ -36,14 +36,31 @@ def calculate_rsi(data, period=14):
         return None
 
 
-def calculate_all_rsi(exchange, symbols, timeframe='5m', period=14):
+def calculate_all_rsi(exchange, symbols, timeframe='1d', period=14):
     """Calcule le RSI pour toutes les cryptos spécifiées."""
     results = {}
+    print(exchange.fetch_ohlcv('FTM/USDT', '30m', limit=14))
+
+
+    print("Chargement des informations sur les marchés...")
+    markets = exchange.load_markets()
+
     for idx, symbol in enumerate(symbols):
         print(f"{idx + 1}/{len(symbols)} : Calcul du RSI pour {symbol}")
+
+        if symbol not in markets:
+            print(f"{symbol} n'existe pas sur l'exchange. Crypto ignorée.")
+            results[symbol] = {'error': 'Paire inexistante'}
+            continue
+
+        if not markets[symbol]['active']:
+            print(f"{symbol} est désactivée ou en maintenance. Crypto ignorée.")
+            results[symbol] = {'error': 'Paire inactive'}
+            continue
+
         try:
             df = fetch_ohlcv(exchange, symbol, timeframe, limit=period + 1)
-            time.sleep(1)
+
             if df['volume'].sum() == 0:
                 print(f"Volume nul pour {symbol}. Crypto ignorée.")
                 results[symbol] = {'error': 'Volume nul'}
@@ -71,6 +88,7 @@ def calculate_all_rsi(exchange, symbols, timeframe='5m', period=14):
             results[symbol] = {'error': str(e)}
 
     return results
+
 
 def save_rsi_data(data):
     """Sauvegarde les données RSI dans un fichier JSON."""
