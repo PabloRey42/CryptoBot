@@ -5,7 +5,7 @@ import bcrypt
 conn = psycopg2.connect(
     dbname="crypto_users",
     user="crypto_admin",
-    password="MonSuperMotDePasse123!",
+    password="7102Bdd*",
     host="localhost"
 )
 cursor = conn.cursor()
