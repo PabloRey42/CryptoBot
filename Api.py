@@ -21,7 +21,7 @@ def get_db_connection():
     return psycopg2.connect(
         dbname="crypto_users",
         user="crypto_admin",
-        password="MonSuperMotDePasse123!",
+        password="7102Bdd*",
         host="127.0.0.1",
         port="5432"
     )
