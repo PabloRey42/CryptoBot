@@ -35,7 +35,6 @@ def rsi_worker(exchange):
     print(symbols)
     while True:
         try:
-            print("Test")
             rsi_data = calculate_all_rsi(exchange, symbols)
             save_rsi_data(rsi_data)
             print(f"RSI mis à jour pour {len(rsi_data)} cryptos.")
