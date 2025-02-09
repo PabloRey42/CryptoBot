@@ -10,32 +10,48 @@ import datetime
 # Configuration Flask
 app = Flask(__name__)
 CORS(app)
-SECRET_KEY = "super_secret_key"  # 🔐 Change cette clé pour une clé forte et sécurisée
+SECRET_KEY = "super_secret_key"
 
-# Chemin des fichiers de sauvegarde
+# Chemins des fichiers de sauvegarde
 SAVE_DIR = "saves"
+PROFILE_DIR = "profiles"
 RSI_FILE = os.path.join(SAVE_DIR, "rsi_data.json")
 
-# Connexion PostgreSQL
+# Vérifier que les dossiers existent
+if not os.path.exists(SAVE_DIR):
+    os.makedirs(SAVE_DIR)
+if not os.path.exists(PROFILE_DIR):
+    os.makedirs(PROFILE_DIR)
+
+# ========================== 🛠 BASE DE DONNÉES ==========================
+
 def get_db_connection():
-    return psycopg2.connect(
-        dbname="crypto_users",
-        user="crypto_admin",
-        password="7102Bdd*",
-        host="127.0.0.1",
-        port="5432"
-    )
+    """Connexion sécurisée à PostgreSQL"""
+    try:
+        conn = psycopg2.connect(
+            dbname="crypto_users",
+            user="crypto_admin",
+            password="7102Bdd*",
+            host="127.0.0.1",
+            port="5432"
+        )
+        return conn
+    except Exception as e:
+        print(f"Erreur de connexion à la base de données : {e}")
+        return None
 
 # ========================== 🔐 AUTHENTIFICATION ==========================
 
 @app.route('/login', methods=['POST'])
 def login():
-    """ Vérifie les identifiants de l'utilisateur et génère un token JWT """
+    """ Vérifie les identifiants et génère un token JWT """
     data = request.json
     email = data.get("email")
     password = data.get("password")
 
     conn = get_db_connection()
+    if not conn:
+        return jsonify({"error": "Connexion à la base de données impossible"}), 500
     cursor = conn.cursor()
 
     # Vérifier si l'utilisateur existe
@@ -50,11 +66,9 @@ def login():
 
     hashed_password = user[0]
 
-    # Vérifier le mot de passe avec bcrypt
     if not bcrypt.checkpw(password.encode('utf-8'), hashed_password.encode('utf-8')):
         return jsonify({"error": "Mot de passe incorrect"}), 401
 
-    # Générer un token JWT
     token = jwt.encode(
         {"email": email, "exp": datetime.datetime.utcnow() + datetime.timedelta(hours=2)},
         SECRET_KEY,
@@ -71,6 +85,8 @@ def register():
     password = data.get("password")
 
     conn = get_db_connection()
+    if not conn:
+        return jsonify({"error": "Connexion à la base de données impossible"}), 500
     cursor = conn.cursor()
 
     # Vérifier si l'email existe déjà
@@ -78,7 +94,6 @@ def register():
     if cursor.fetchone():
         return jsonify({"error": "Email déjà utilisé"}), 400
 
-    # Hacher le mot de passe avant stockage
     hashed_password = bcrypt.hashpw(password.encode('utf-8'), bcrypt.gensalt()).decode('utf-8')
 
     # Insérer l'utilisateur
@@ -89,6 +104,54 @@ def register():
     conn.close()
 
     return jsonify({"message": "Utilisateur enregistré avec succès"}), 201
+
+# ========================== 👤 GESTION DES PROFILS & WALLETS ==========================
+
+def load_profile(profile_name):
+    """Charge un profil utilisateur"""
+    profile_path = os.path.join(PROFILE_DIR, f"{profile_name}.json")
+    
+    if not os.path.exists(profile_path):
+        return None
+
+    with open(profile_path, 'r') as file:
+        return json.load(file)
+
+@app.route('/profiles', methods=['GET'])
+def get_profiles():
+    """Retourne la liste des profils disponibles"""
+    profiles = [f.replace(".json", "") for f in os.listdir(PROFILE_DIR) if f.endswith(".json")]
+    return jsonify({"profiles": profiles})
+
+@app.route('/profile/<profile_name>', methods=['GET'])
+def get_profile_data(profile_name):
+    """Retourne les informations du profil"""
+    profile = load_profile(profile_name)
+
+    if profile is None:
+        return jsonify({"error": "Profil introuvable"}), 404
+
+    return jsonify(profile)
+
+@app.route('/profile/<profile_name>/wallet', methods=['GET'])
+def get_wallet(profile_name):
+    """Récupère le wallet du profil"""
+    profile = load_profile(profile_name)
+
+    if profile is None:
+        return jsonify({"error": "Profil introuvable"}), 404
+
+    return jsonify({"wallet": profile.get("wallet", {})})
+
+@app.route('/profile/<profile_name>/cryptos', methods=['GET'])
+def get_cryptos(profile_name):
+    """Retourne les cryptos suivies par un profil"""
+    profile = load_profile(profile_name)
+
+    if profile is None:
+        return jsonify({"error": "Profil introuvable"}), 404
+
+    return jsonify({"cryptos": profile.get("cryptos", [])})
 
 # ========================== 🔍 ROUTES EXISTANTES ==========================
 

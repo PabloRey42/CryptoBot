@@ -1,0 +1,9 @@
+{
+    "name": "Test",
+    "wallet": {},
+    "api_key": "ahjfa",
+    "api_secret": "fazjfoa",
+    "cryptos": [
+        "BTC/USDT"
+    ]
+}

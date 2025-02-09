@@ -1,0 +1,116 @@
+2025-02-09 15:57:47,615 - INFO - Analyse des cryptos suivantes : ['BTC/USDT', 'ETH/USDT', 'BNB/USDT', 'ADA/USDT', 'XRP/USDT', 'SOL/USDT', 'DOT/USDT', 'DOGE/USDT', 'AVAX/USDT', 'MATIC/USDT']
+2025-02-09 15:57:47,615 - INFO - Bot démarré. Appuyez sur Ctrl+C pour quitter.
+2025-02-09 15:57:47,615 - INFO - Chargement des informations sur les marchés...
+2025-02-09 15:57:50,749 - INFO - 1/10 : Analyse des indicateurs pour BTC/USDT
+2025-02-09 15:57:51,016 - ERROR - Erreur lors du calcul du RSI : Pas assez de données pour calculer le RSI
+2025-02-09 15:57:51,017 - INFO - 2/10 : Analyse des indicateurs pour ETH/USDT
+2025-02-09 15:57:51,703 - ERROR - Erreur lors du calcul du RSI : Pas assez de données pour calculer le RSI
+2025-02-09 15:57:51,703 - INFO - 3/10 : Analyse des indicateurs pour BNB/USDT
+2025-02-09 15:57:51,945 - ERROR - Erreur lors du calcul du RSI : Pas assez de données pour calculer le RSI
+2025-02-09 15:57:51,945 - INFO - 4/10 : Analyse des indicateurs pour ADA/USDT
+2025-02-09 15:57:52,632 - ERROR - Erreur lors du calcul du RSI : Pas assez de données pour calculer le RSI
+2025-02-09 15:57:52,632 - INFO - 5/10 : Analyse des indicateurs pour XRP/USDT
+2025-02-09 15:57:52,874 - ERROR - Erreur lors du calcul du RSI : Pas assez de données pour calculer le RSI
+2025-02-09 15:57:52,874 - INFO - 6/10 : Analyse des indicateurs pour SOL/USDT
+2025-02-09 15:57:53,113 - ERROR - Erreur lors du calcul du RSI : Pas assez de données pour calculer le RSI
+2025-02-09 15:57:53,113 - INFO - 7/10 : Analyse des indicateurs pour DOT/USDT
+2025-02-09 15:57:53,799 - ERROR - Erreur lors du calcul du RSI : Pas assez de données pour calculer le RSI
+2025-02-09 15:57:53,799 - INFO - 8/10 : Analyse des indicateurs pour DOGE/USDT
+2025-02-09 15:57:54,042 - ERROR - Erreur lors du calcul du RSI : Pas assez de données pour calculer le RSI
+2025-02-09 15:57:54,043 - INFO - 9/10 : Analyse des indicateurs pour AVAX/USDT
+2025-02-09 15:57:54,727 - ERROR - Erreur lors du calcul du RSI : Pas assez de données pour calculer le RSI
+2025-02-09 15:57:54,727 - INFO - 10/10 : Analyse des indicateurs pour MATIC/USDT
+2025-02-09 15:57:54,727 - WARNING - MATIC/USDT n'existe pas ou est désactivée sur l'exchange. Ignoré.
+2025-02-09 15:57:54,728 - INFO - Données RSI/MACD sauvegardées avec succès.
+2025-02-09 15:57:54,728 - INFO - RSI/MACD mis à jour pour 10 cryptos.
+2025-02-09 16:09:17,204 - INFO - Profil 'Pablo' enregistré avec succès.
+2025-02-09 16:09:17,212 - INFO - Analyse des cryptos suivantes pour le profil Pablo : ['']
+2025-02-09 16:09:17,212 - INFO - Bot démarré avec le profil Pablo. Appuyez sur Ctrl+C pour quitter.
+2025-02-09 16:09:17,212 - INFO - Chargement des informations sur les marchés...
+2025-02-09 16:09:17,591 - ERROR - Erreur lors du chargement des marchés : binance {"code":-2008,"msg":"Invalid Api-Key ID."}
+2025-02-09 16:09:17,592 - INFO - Données RSI/MACD sauvegardées avec succès.
+2025-02-09 16:09:17,592 - INFO - RSI/MACD mis à jour pour 0 cryptos.
+2025-02-09 16:11:24,012 - INFO - Profil 'Pablo2' enregistré avec succès.
+2025-02-09 16:11:24,019 - INFO - Analyse des cryptos suivantes pour le profil Pablo2 : ['BTC/USDT']
+2025-02-09 16:11:24,019 - INFO - Bot démarré avec le profil Pablo2. Appuyez sur Ctrl+C pour quitter.
+2025-02-09 16:11:24,019 - INFO - Chargement des informations sur les marchés...
+2025-02-09 16:11:24,337 - ERROR - Erreur lors du chargement des marchés : binance {"code":-2008,"msg":"Invalid Api-Key ID."}
+2025-02-09 16:11:24,338 - INFO - Données RSI/MACD sauvegardées avec succès.
+2025-02-09 16:11:24,338 - INFO - RSI/MACD mis à jour pour 0 cryptos.
+2025-02-09 16:12:38,804 - INFO - Profil 'Test' enregistré avec succès.
+2025-02-09 16:12:55,429 - INFO - Profil 'fuiahg' enregistré avec succès.
+2025-02-09 16:16:01,471 - INFO - Début de l'analyse des cryptos pour le profil Pablo.
+2025-02-09 16:16:01,471 - INFO - Bot démarré avec le profil Pablo. Appuyez sur Ctrl+C pour quitter.
+2025-02-09 16:16:01,471 - INFO - Chargement des informations sur les marchés...
+2025-02-09 16:16:01,791 - ERROR - Erreur lors du chargement des marchés : binance {"code":-2008,"msg":"Invalid Api-Key ID."}
+2025-02-09 16:16:01,791 - WARNING - Aucune donnée récupérée pour Pablo.
+2025-02-09 16:16:01,791 - INFO - Chargement des informations sur les marchés...
+2025-02-09 16:16:02,035 - ERROR - Erreur lors du chargement des marchés : binance {"code":-2008,"msg":"Invalid Api-Key ID."}
+2025-02-09 16:16:02,035 - WARNING - Aucune donnée récupérée pour Pablo.
+2025-02-09 16:16:02,035 - INFO - Chargement des informations sur les marchés...
+2025-02-09 16:16:02,279 - ERROR - Erreur lors du chargement des marchés : binance {"code":-2008,"msg":"Invalid Api-Key ID."}
+2025-02-09 16:16:02,279 - WARNING - Aucune donnée récupérée pour Pablo.
+2025-02-09 16:16:02,279 - INFO - Chargement des informations sur les marchés...
+2025-02-09 16:16:02,525 - ERROR - Erreur lors du chargement des marchés : binance {"code":-2008,"msg":"Invalid Api-Key ID."}
+2025-02-09 16:16:02,526 - WARNING - Aucune donnée récupérée pour Pablo.
+2025-02-09 16:16:02,526 - INFO - Chargement des informations sur les marchés...
+2025-02-09 16:16:02,770 - ERROR - Erreur lors du chargement des marchés : binance {"code":-2008,"msg":"Invalid Api-Key ID."}
+2025-02-09 16:16:02,770 - WARNING - Aucune donnée récupérée pour Pablo.
+2025-02-09 16:16:02,770 - INFO - Chargement des informations sur les marchés...
+2025-02-09 16:16:03,018 - ERROR - Erreur lors du chargement des marchés : binance {"code":-2008,"msg":"Invalid Api-Key ID."}
+2025-02-09 16:16:03,019 - WARNING - Aucune donnée récupérée pour Pablo.
+2025-02-09 16:16:03,019 - INFO - Chargement des informations sur les marchés...
+2025-02-09 16:16:03,267 - ERROR - Erreur lors du chargement des marchés : binance {"code":-2008,"msg":"Invalid Api-Key ID."}
+2025-02-09 16:16:03,267 - WARNING - Aucune donnée récupérée pour Pablo.
+2025-02-09 16:16:03,267 - INFO - Chargement des informations sur les marchés...
+2025-02-09 16:16:03,511 - ERROR - Erreur lors du chargement des marchés : binance {"code":-2008,"msg":"Invalid Api-Key ID."}
+2025-02-09 16:16:03,511 - WARNING - Aucune donnée récupérée pour Pablo.
+2025-02-09 16:16:03,511 - INFO - Chargement des informations sur les marchés...
+2025-02-09 16:16:03,757 - ERROR - Erreur lors du chargement des marchés : binance {"code":-2008,"msg":"Invalid Api-Key ID."}
+2025-02-09 16:16:03,757 - WARNING - Aucune donnée récupérée pour Pablo.
+2025-02-09 16:16:03,757 - INFO - Chargement des informations sur les marchés...
+2025-02-09 16:16:04,003 - ERROR - Erreur lors du chargement des marchés : binance {"code":-2008,"msg":"Invalid Api-Key ID."}
+2025-02-09 16:16:04,003 - WARNING - Aucune donnée récupérée pour Pablo.
+2025-02-09 16:16:04,003 - INFO - Chargement des informations sur les marchés...
+2025-02-09 16:16:04,247 - ERROR - Erreur lors du chargement des marchés : binance {"code":-2008,"msg":"Invalid Api-Key ID."}
+2025-02-09 16:16:04,248 - WARNING - Aucune donnée récupérée pour Pablo.
+2025-02-09 16:16:04,248 - INFO - Chargement des informations sur les marchés...
+2025-02-09 16:16:04,494 - ERROR - Erreur lors du chargement des marchés : binance {"code":-2008,"msg":"Invalid Api-Key ID."}
+2025-02-09 16:16:04,494 - WARNING - Aucune donnée récupérée pour Pablo.
+2025-02-09 16:16:04,494 - INFO - Chargement des informations sur les marchés...
+2025-02-09 16:16:04,737 - ERROR - Erreur lors du chargement des marchés : binance {"code":-2008,"msg":"Invalid Api-Key ID."}
+2025-02-09 16:16:04,737 - WARNING - Aucune donnée récupérée pour Pablo.
+2025-02-09 16:16:04,738 - INFO - Chargement des informations sur les marchés...
+2025-02-09 16:16:04,982 - ERROR - Erreur lors du chargement des marchés : binance {"code":-2008,"msg":"Invalid Api-Key ID."}
+2025-02-09 16:16:04,982 - WARNING - Aucune donnée récupérée pour Pablo.
+2025-02-09 16:16:04,982 - INFO - Chargement des informations sur les marchés...
+2025-02-09 16:16:05,224 - ERROR - Erreur lors du chargement des marchés : binance {"code":-2008,"msg":"Invalid Api-Key ID."}
+2025-02-09 16:16:05,225 - WARNING - Aucune donnée récupérée pour Pablo.
+2025-02-09 16:16:05,225 - INFO - Chargement des informations sur les marchés...
+2025-02-09 16:16:05,474 - ERROR - Erreur lors du chargement des marchés : binance {"code":-2008,"msg":"Invalid Api-Key ID."}
+2025-02-09 16:16:05,475 - WARNING - Aucune donnée récupérée pour Pablo.
+2025-02-09 16:16:05,475 - INFO - Chargement des informations sur les marchés...
+2025-02-09 16:16:05,719 - ERROR - Erreur lors du chargement des marchés : binance {"code":-2008,"msg":"Invalid Api-Key ID."}
+2025-02-09 16:16:05,719 - WARNING - Aucune donnée récupérée pour Pablo.
+2025-02-09 16:16:05,719 - INFO - Chargement des informations sur les marchés...
+2025-02-09 16:16:05,963 - ERROR - Erreur lors du chargement des marchés : binance {"code":-2008,"msg":"Invalid Api-Key ID."}
+2025-02-09 16:16:05,963 - WARNING - Aucune donnée récupérée pour Pablo.
+2025-02-09 16:16:05,963 - INFO - Chargement des informations sur les marchés...
+2025-02-09 16:16:06,205 - ERROR - Erreur lors du chargement des marchés : binance {"code":-2008,"msg":"Invalid Api-Key ID."}
+2025-02-09 16:16:06,205 - WARNING - Aucune donnée récupérée pour Pablo.
+2025-02-09 16:16:06,205 - INFO - Chargement des informations sur les marchés...
+2025-02-09 16:16:06,447 - ERROR - Erreur lors du chargement des marchés : binance {"code":-2008,"msg":"Invalid Api-Key ID."}
+2025-02-09 16:16:06,448 - WARNING - Aucune donnée récupérée pour Pablo.
+2025-02-09 16:16:06,448 - INFO - Chargement des informations sur les marchés...
+2025-02-09 16:16:06,691 - ERROR - Erreur lors du chargement des marchés : binance {"code":-2008,"msg":"Invalid Api-Key ID."}
+2025-02-09 16:16:06,691 - WARNING - Aucune donnée récupérée pour Pablo.
+2025-02-09 16:16:06,691 - INFO - Chargement des informations sur les marchés...
+2025-02-09 16:16:06,938 - ERROR - Erreur lors du chargement des marchés : binance {"code":-2008,"msg":"Invalid Api-Key ID."}
+2025-02-09 16:16:06,938 - WARNING - Aucune donnée récupérée pour Pablo.
+2025-02-09 16:16:06,938 - INFO - Chargement des informations sur les marchés...
+2025-02-09 16:16:07,186 - ERROR - Erreur lors du chargement des marchés : binance {"code":-2008,"msg":"Invalid Api-Key ID."}
+2025-02-09 16:16:07,186 - WARNING - Aucune donnée récupérée pour Pablo.
+2025-02-09 16:16:07,186 - INFO - Chargement des informations sur les marchés...
+2025-02-09 16:16:07,431 - ERROR - Erreur lors du chargement des marchés : binance {"code":-2008,"msg":"Invalid Api-Key ID."}
+2025-02-09 16:16:07,431 - WARNING - Aucune donnée récupérée pour Pablo.
+2025-02-09 16:16:07,431 - INFO - Chargement des informations sur les marchés...
