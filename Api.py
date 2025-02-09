@@ -129,4 +129,11 @@ def get_rsi_for_symbol(symbol):
 
 # ========================== 🚀 LANCEMENT DU SERVEUR ==========================
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000, ssl_context=('cert.pem', 'key.pem'))
+    app.run(
+        host="0.0.0.0",
+        port=5000,
+        ssl_context=(
+            "/etc/letsencrypt/live/bot.crypteau.fr/fullchain.pem",
+            "/etc/letsencrypt/live/bot.crypteau.fr/privkey.pem"
+        )
+    )
