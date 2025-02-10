@@ -15,7 +15,7 @@ from flask_limiter import Limiter
 from flask_limiter.util import get_remote_address
 
 app = Flask(__name__)
-CORS(app)
+CORS(app, supports_credentials=True, origins=["https://bot.crypteau.fr"])
 SECRET_KEY = "Secret_key_de_ouf_de_test"
 
 limiter = Limiter(get_remote_address, app=app, default_limits=["5 per minute"])
@@ -83,19 +83,22 @@ def login():
     if not bcrypt.checkpw(password.encode('utf-8'), hashed_password.encode('utf-8')):
         return jsonify({"error": "Mot de passe incorrect"}), 401
 
+    # ✅ Générer le JWT
     token = jwt.encode(
         {"user_id": user_id, "exp": datetime.datetime.utcnow() + datetime.timedelta(hours=2)},
         SECRET_KEY,
         algorithm="HS256"
     )
 
+    # ✅ Envoyer le token sous forme de cookie sécurisé
     response = jsonify({"message": "Connexion réussie", "user_id": user_id})
     response.set_cookie(
         "token", token,
-        httponly=True, secure=True, samesite="Strict", max_age=7200
+        httponly=True, secure=True, samesite="None", max_age=7200, domain=".crypteau.fr"  # ⚠️ Ajoute `domain=".crypteau.fr"`
     )
 
     return response
+
 
 @app.route('/check-auth', methods=['GET'])
 def check_auth():
