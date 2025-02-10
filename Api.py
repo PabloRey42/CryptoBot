@@ -11,7 +11,10 @@ import asyncio
 from binance.client import Client
 from dotenv import load_dotenv
 from binance.exceptions import BinanceAPIException
+from flask_limiter import Limiter
+from flask_limiter.util import get_remote_address
 
+limiter = Limiter(get_remote_address, app=app, default_limits=["5 per minute"])
 
 TELEGRAM_BOT_TOKEN = "8182679555:AAEisPOqAXbYMCIzCS0q42qV4NYorBePg38"
 CHAT_ID = "7301678219"
@@ -55,8 +58,9 @@ def get_db_connection():
 # ========================== 🔐 AUTHENTIFICATION ==========================
 
 @app.route('/login', methods=['POST'])
+@limiter.limit("5 per minute")
 def login():
-    """ Vérifie les identifiants et génère un token JWT """
+    """ Vérifie les identifiants et génère un token JWT sécurisé """
     data = request.json
     email = data.get("email")
     password = data.get("password")
@@ -66,7 +70,7 @@ def login():
         return jsonify({"error": "Connexion à la base de données impossible"}), 500
     cursor = conn.cursor()
 
-    cursor.execute("SELECT password FROM users WHERE email = %s", (email,))
+    cursor.execute("SELECT id, password FROM users WHERE email = %s", (email,))
     user = cursor.fetchone()
 
     cursor.close()
@@ -75,18 +79,48 @@ def login():
     if not user:
         return jsonify({"error": "Utilisateur non trouvé"}), 401
 
-    hashed_password = user[0]
+    user_id, hashed_password = user[0], user[1]
 
     if not bcrypt.checkpw(password.encode('utf-8'), hashed_password.encode('utf-8')):
         return jsonify({"error": "Mot de passe incorrect"}), 401
 
     token = jwt.encode(
-        {"email": email, "exp": datetime.datetime.utcnow() + datetime.timedelta(hours=2)},
+        {"user_id": user_id, "exp": datetime.datetime.utcnow() + datetime.timedelta(hours=2)},
         SECRET_KEY,
         algorithm="HS256"
     )
 
-    return jsonify({"message": "Connexion réussie", "token": token}), 200
+    response = jsonify({"message": "Connexion réussie", "user_id": user_id})
+    response.set_cookie(
+        "token", token,
+        httponly=True, secure=True, samesite="Strict", max_age=7200
+    )
+
+    return response
+
+@app.route('/check-auth', methods=['GET'])
+def check_auth():
+    """ Vérifie si un utilisateur est connecté grâce au token JWT stocké dans le cookie """
+    token = request.cookies.get("token")
+
+    if not token:
+        return jsonify({"authenticated": False}), 401
+
+    try:
+        decoded = jwt.decode(token, SECRET_KEY, algorithms=["HS256"])
+        return jsonify({"authenticated": True, "user_id": decoded["user_id"]})
+    except jwt.ExpiredSignatureError:
+        return jsonify({"authenticated": False, "error": "Token expiré"}), 401
+    except jwt.InvalidTokenError:
+        return jsonify({"authenticated": False, "error": "Token invalide"}), 401
+
+
+@app.route('/logout', methods=['POST'])
+def logout():
+    """ Déconnecte l'utilisateur en supprimant son cookie JWT """
+    response = jsonify({"message": "Déconnexion réussie"})
+    response.set_cookie("token", "", expires=0)  
+    return response
 
 
 
@@ -157,6 +191,8 @@ def get_cryptos(profile_name):
 
 @app.route('/account/wallet', methods=['GET'])
 def get_wallet():
+    user_id = request.user_id
+    print(f"🔐 Accès au wallet pour l'utilisateur {user_id}")
     api_key = os.getenv("BINANCE_TEST_API_KEY")
     api_secret = os.getenv("BINANCE_TEST_SECRET_KEY")
 
