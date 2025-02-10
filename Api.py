@@ -128,10 +128,11 @@ def logout():
 
 @app.route('/register', methods=['POST'])
 def register():
-    """ Enregistre un nouvel utilisateur avec mot de passe haché """
+    """ Enregistre un nouvel utilisateur avec un rôle par défaut """
     data = request.json
     email = data.get("email")
     password = data.get("password")
+    role = data.get("role", "user")  # 🔥 Si aucun rôle n'est spécifié, il sera "user"
 
     conn = get_db_connection()
     if not conn:
@@ -144,14 +145,14 @@ def register():
 
     hashed_password = bcrypt.hashpw(password.encode('utf-8'), bcrypt.gensalt()).decode('utf-8')
 
-    # Insérer l'utilisateur
-    cursor.execute("INSERT INTO users (email, password) VALUES (%s, %s)", (email, hashed_password))
+    cursor.execute("INSERT INTO users (email, password, role) VALUES (%s, %s, %s)", 
+                   (email, hashed_password, role))
     conn.commit()
 
     cursor.close()
     conn.close()
 
-    return jsonify({"message": "Utilisateur enregistré avec succès"}), 201
+    return jsonify({"message": "Utilisateur enregistré avec succès", "role": role}), 201
 
 # ========================== 👤 GESTION DES PROFILS & WALLETS ==========================
 
@@ -180,8 +181,8 @@ def get_user_profile():
         conn = get_db_connection()
         cur = conn.cursor()
 
-        # 🔹 Récupérer name et surname en plus de l'email
-        cur.execute("SELECT id, email, name, surname FROM users WHERE id = %s", (user_id,))
+        # 🔹 Récupérer `role` depuis la base de données
+        cur.execute("SELECT id, email, name, surname, role FROM users WHERE id = %s", (user_id,))
         user = cur.fetchone()
 
         cur.close()
@@ -190,17 +191,22 @@ def get_user_profile():
         if not user:
             return jsonify({"error": "Utilisateur non trouvé"}), 404
 
+        # 🔥 Debugging : afficher les données de l'utilisateur dans les logs
+        print("User data from DB:", user)
+
         return jsonify({
             "user_id": user[0],
             "email": user[1],
             "name": user[2],
-            "surname": user[3]
+            "surname": user[3],
+            "role": user[4]
         })
     
     except jwt.ExpiredSignatureError:
         return jsonify({"error": "Token expiré"}), 401
     except jwt.InvalidTokenError:
         return jsonify({"error": "Token invalide"}), 401
+
 
 
 @app.route('/profiles', methods=['GET'])
