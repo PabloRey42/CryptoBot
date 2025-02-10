@@ -1,0 +1,12 @@
+{
+    "profile": "Pablo",
+    "timestamp": "2025-02-10T17:45:54",
+    "cryptos": {
+        "BTC/USDT": {
+            "error": "RSI non calcul\u00e9"
+        },
+        "ETH/USDT": {
+            "error": "RSI non calcul\u00e9"
+        }
+    }
+}

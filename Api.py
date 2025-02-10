@@ -6,6 +6,13 @@ import psycopg2
 import bcrypt
 import jwt
 import datetime
+from telegram import Bot
+
+
+TELEGRAM_BOT_TOKEN = "8182679555:AAEisPOqAXbYMCIzCS0q42qV4NYorBePg38"
+CHAT_ID = "7301678219"
+
+bot = Bot(token=TELEGRAM_BOT_TOKEN)
 
 # Configuration Flask
 app = Flask(__name__)
@@ -54,7 +61,6 @@ def login():
         return jsonify({"error": "Connexion à la base de données impossible"}), 500
     cursor = conn.cursor()
 
-    # Vérifier si l'utilisateur existe
     cursor.execute("SELECT password FROM users WHERE email = %s", (email,))
     user = cursor.fetchone()
 
@@ -77,6 +83,8 @@ def login():
 
     return jsonify({"message": "Connexion réussie", "token": token}), 200
 
+
+
 @app.route('/register', methods=['POST'])
 def register():
     """ Enregistre un nouvel utilisateur avec mot de passe haché """
@@ -89,7 +97,6 @@ def register():
         return jsonify({"error": "Connexion à la base de données impossible"}), 500
     cursor = conn.cursor()
 
-    # Vérifier si l'email existe déjà
     cursor.execute("SELECT email FROM users WHERE email = %s", (email,))
     if cursor.fetchone():
         return jsonify({"error": "Email déjà utilisé"}), 400
@@ -153,6 +160,42 @@ def get_cryptos(profile_name):
 
     return jsonify({"cryptos": profile.get("cryptos", [])})
 
+# ========================== 🔍 SUIVIES DES CRYPTOS PAR COMPTES ==========================
+
+@app.route('/api/user/cryptos', methods=['POST'])
+def add_crypto():
+    data = request.json
+    user_id = data.get("user_id")
+    crypto_symbol = data.get("crypto_symbol")
+
+    if not user_id or not crypto_symbol:
+        return jsonify({"error": "User ID et crypto requis"}), 400
+
+    conn = get_db_connection()
+    cur = conn.cursor()
+
+    cur.execute("INSERT INTO user_cryptos (user_id, crypto_symbol) VALUES (%s, %s)", (user_id, crypto_symbol))
+
+    conn.commit()
+    cur.close()
+    conn.close()
+
+    return jsonify({"message": f"{crypto_symbol} ajouté à la liste suivie"}), 201
+
+@app.route('/api/user/cryptos/<int:user_id>', methods=['GET'])
+def get_user_cryptos(user_id):
+    conn = get_db_connection()
+    cur = conn.cursor()
+
+    cur.execute("SELECT crypto_symbol FROM user_cryptos WHERE user_id = %s", (user_id,))
+    cryptos = cur.fetchall()
+
+    cur.close()
+    conn.close()
+
+    return jsonify({"cryptos": [crypto[0] for crypto in cryptos]})
+
+
 # ========================== 🔍 ROUTES EXISTANTES ==========================
 
 @app.route('/saves', methods=['GET'])
@@ -189,6 +232,17 @@ def get_rsi_for_symbol(symbol):
         if symbol in data:
             return jsonify(data[symbol])
     return jsonify({"error": f"RSI introuvable pour {symbol}."}), 404
+
+# ========================== 🤖Bot Telegram ==========================
+
+def send_telegram_message(message):
+    """Envoie un message Telegram à l'utilisateur."""
+    try:
+        bot.send_message(chat_id=CHAT_ID, text=message)
+        print(f"Message envoyé : {message}")
+    except Exception as e:
+        print(f"Erreur lors de l'envoi du message Telegram : {e}")
+
 
 # ========================== 🚀 LANCEMENT DU SERVEUR ==========================
 if __name__ == "__main__":
