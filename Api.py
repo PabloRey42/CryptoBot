@@ -246,8 +246,12 @@ async def send_telegram_message_async(message):
         print(f"Erreur lors de l'envoi du message Telegram : {e}")
 
 def send_telegram_message(message):
-    """Exécute la fonction asynchrone dans l'événement loop."""
-    asyncio.run(send_telegram_message_async(message))
+    """Lance la coroutine de manière non bloquante dans l'event loop."""
+    loop = asyncio.get_event_loop()
+    if loop.is_running():
+        asyncio.create_task(send_telegram_message_async(message))  # Lancement en tâche de fond
+    else:
+        loop.run_until_complete(send_telegram_message_async(message))
 
 
 # ========================== 🚀 LANCEMENT DU SERVEUR ==========================
