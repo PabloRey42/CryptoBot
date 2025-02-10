@@ -119,10 +119,10 @@ def check_auth():
 
 @app.route('/logout', methods=['POST'])
 def logout():
-    """ Déconnecte l'utilisateur en supprimant son cookie JWT """
+    """ Déconnecte l'utilisateur en supprimant le cookie JWT """
     response = jsonify({"message": "Déconnexion réussie"})
-    response.set_cookie("token", "", expires=0)  
-    return response
+    response.set_cookie("token", "", expires=0, path="/")
+    return response, 200
 
 
 
