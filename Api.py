@@ -164,6 +164,40 @@ def load_profile(profile_name):
 
     with open(profile_path, 'r') as file:
         return json.load(file)
+       
+@app.route('/api/user/profile', methods=['GET'])
+def get_user_profile():
+    """ Récupère les informations de l'utilisateur connecté """
+    token = request.cookies.get("token")
+
+    if not token:
+        return jsonify({"error": "Non authentifié"}), 401
+
+    try:
+        decoded = jwt.decode(token, SECRET_KEY, algorithms=["HS256"])
+        user_id = decoded["user_id"]
+
+        conn = get_db_connection()
+        cur = conn.cursor()
+
+        cur.execute("SELECT id, email FROM users WHERE id = %s", (user_id,))
+        user = cur.fetchone()
+
+        cur.close()
+        conn.close()
+
+        if not user:
+            return jsonify({"error": "Utilisateur non trouvé"}), 404
+
+        return jsonify({
+            "user_id": user[0],
+            "name": user[1].split("@")[0]  # Affiche juste le début de l'email comme nom
+        })
+    
+    except jwt.ExpiredSignatureError:
+        return jsonify({"error": "Token expiré"}), 401
+    except jwt.InvalidTokenError:
+        return jsonify({"error": "Token invalide"}), 401
 
 @app.route('/profiles', methods=['GET'])
 def get_profiles():
