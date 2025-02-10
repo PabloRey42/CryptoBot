@@ -18,7 +18,7 @@ app = Flask(__name__)
 CORS(app, supports_credentials=True, origins=["https://bot.crypteau.fr"])
 SECRET_KEY = "Secret_key_de_ouf_de_test"
 
-limiter = Limiter(get_remote_address, app=app, default_limits=["5 per minute"])
+limiter = Limiter(get_remote_address, app=app, default_limits=["100 per minute"])
 
 TELEGRAM_BOT_TOKEN = "8182679555:AAEisPOqAXbYMCIzCS0q42qV4NYorBePg38"
 CHAT_ID = "7301678219"
@@ -57,7 +57,7 @@ def get_db_connection():
 # ========================== 🔐 AUTHENTIFICATION ==========================
 
 @app.route('/login', methods=['POST'])
-@limiter.limit("5 per minute")
+@limiter.limit("100 per minute")
 def login():
     """ Vérifie les identifiants et génère un token JWT sécurisé """
     data = request.json
