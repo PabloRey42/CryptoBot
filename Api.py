@@ -8,20 +8,21 @@ import jwt
 import datetime
 from telegram import Bot
 import asyncio
-
-
+from binance.client import Client
+from dotenv import load_dotenv
 
 TELEGRAM_BOT_TOKEN = "8182679555:AAEisPOqAXbYMCIzCS0q42qV4NYorBePg38"
 CHAT_ID = "7301678219"
 
 bot = Bot(token=TELEGRAM_BOT_TOKEN)
 
-# Configuration Flask
+load_dotenv()
+
+
 app = Flask(__name__)
 CORS(app)
 SECRET_KEY = "super_secret_key"
 
-# Chemins des fichiers de sauvegarde
 SAVE_DIR = "saves"
 PROFILE_DIR = "profiles"
 RSI_FILE = os.path.join(SAVE_DIR, "rsi_data.json")
@@ -162,6 +163,24 @@ def get_cryptos(profile_name):
 
     return jsonify({"cryptos": profile.get("cryptos", [])})
 
+@app.route('/account/wallet', methods=['GET'])
+def get_wallet(profile_name):
+    api_key = os.getenv("BINANCE_TEST_API_KEY")
+    api_secret = os.getenv("BINANCE_TEST_SECRET_KEY")
+    client = Client(api_key, api_secret, testnet=True)
+    account_info = client.get_account()
+    owned_assets = [
+    (asset['asset'], float(asset['free']), float(asset['locked']))
+    for asset in account_info['balances']
+    if float(asset['free']) > 0 or float(asset['locked']) > 0
+]
+    if owned_assets:
+        print("💰 Cryptos détenues :")
+        for asset, free, locked in owned_assets:
+            print(f"{asset}: {free} disponible, {locked} verrouillé")
+    else:
+        print("🚫 Aucun actif détenu")
+    
 # ========================== 🔍 SUIVIES DES CRYPTOS PAR COMPTES ==========================
 
 @app.route('/api/user/cryptos', methods=['POST'])

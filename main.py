@@ -120,7 +120,6 @@ def initialize_exchange():
                 print(f"{asset['asset']}: {asset['free']} disponible, {asset['locked']} verrouillé")
 
 
-        # ✅ Activation du mode sandbox pour utiliser Binance Testnet
         exchange.set_sandbox_mode(True)
         print_log("🔵 Mode sandbox activé (Testnet).", "INFO")
 
