@@ -164,17 +164,28 @@ def get_wallet():
     client = Client(api_key, api_secret, testnet=True)
 
     account_info = client.get_account()
-    owned_assets = [
-        {
-            "asset": asset['asset'],
-            "free": float(asset['free']),
-            "locked": float(asset['locked'])
-        }
-        for asset in account_info['balances']
-        if float(asset['free']) > 0 or float(asset['locked']) > 0 
-    ]
+    all_assets = account_info['balances']
+
+    print("🔍 Liste complète des cryptos disponibles sur Binance Testnet:")
+    for asset in all_assets:
+        print(f"{asset['asset']} -> Free: {asset['free']}, Locked: {asset['locked']}")
+
+    owned_assets = []
+    for asset in all_assets:
+        free_balance = float(asset['free'])
+        locked_balance = float(asset['locked'])
+
+        if free_balance > 0 or locked_balance > 0:  
+            owned_assets.append({
+                "asset": asset['asset'],
+                "free": free_balance,
+                "locked": locked_balance
+            })
+
+    print("✅ Cryptos détenues après filtrage:", owned_assets)
 
     return jsonify({"wallet": owned_assets}), 200
+
     
 # ========================== 🔍 SUIVIES DES CRYPTOS PAR COMPTES ==========================
 
