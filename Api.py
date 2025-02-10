@@ -14,6 +14,10 @@ from binance.exceptions import BinanceAPIException
 from flask_limiter import Limiter
 from flask_limiter.util import get_remote_address
 
+app = Flask(__name__)
+CORS(app)
+SECRET_KEY = "Secret_key_de_ouf_de_test"
+
 limiter = Limiter(get_remote_address, app=app, default_limits=["5 per minute"])
 
 TELEGRAM_BOT_TOKEN = "8182679555:AAEisPOqAXbYMCIzCS0q42qV4NYorBePg38"
@@ -22,11 +26,6 @@ CHAT_ID = "7301678219"
 bot = Bot(token=TELEGRAM_BOT_TOKEN)
 
 load_dotenv()
-
-
-app = Flask(__name__)
-CORS(app)
-SECRET_KEY = "super_secret_key"
 
 SAVE_DIR = "saves"
 PROFILE_DIR = "profiles"
