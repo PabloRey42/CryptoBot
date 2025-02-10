@@ -9,6 +9,7 @@ from dotenv import load_dotenv
 from Data.RSI import calculate_all_indicators, save_rsi_data
 from colorama import Fore, Style
 from Api import send_telegram_message
+from binance.client import Client
 
 # 🔹 Charger les variables d'environnement
 load_dotenv()
@@ -108,8 +109,16 @@ def initialize_exchange():
             'apiKey': api_key,
             'secret': api_secret,
             'enableRateLimit': True,
-            'options': {'defaultType': 'spot'},  # Obligatoire pour Testnet
+            'options': {'defaultType': 'spot'},  
         })
+        client = Client(api_key, api_secret, testnet=True)
+        account_info = client.get_account()
+        balances = account_info['balances']
+        
+        for asset in balances:
+            if float(asset['free']) > 0 or float(asset['locked']) > 0:  
+                print(f"{asset['asset']}: {asset['free']} disponible, {asset['locked']} verrouillé")
+
 
         # ✅ Activation du mode sandbox pour utiliser Binance Testnet
         exchange.set_sandbox_mode(True)
