@@ -153,18 +153,25 @@ def get_cryptos(profile_name):
 
     return jsonify({"cryptos": profile.get("cryptos", [])})
 
-
 @app.route('/account/wallet', methods=['GET'])
 def get_wallet():
     api_key = os.getenv("BINANCE_TEST_API_KEY")
     api_secret = os.getenv("BINANCE_TEST_SECRET_KEY")
+
+    if not api_key or not api_secret:
+        return jsonify({"error": "Profil inconnu ou clés API manquantes"}), 400
+
     client = Client(api_key, api_secret, testnet=True)
 
     account_info = client.get_account()
     owned_assets = [
-        {"asset": asset['asset'], "free": float(asset['free']), "locked": float(asset['locked'])}
+        {
+            "asset": asset['asset'],
+            "free": float(asset['free']),
+            "locked": float(asset['locked'])
+        }
         for asset in account_info['balances']
-        if float(asset['free']) > 0 or float(asset['locked']) > 0
+        if float(asset['free']) > 0 or float(asset['locked']) > 0 
     ]
 
     return jsonify({"wallet": owned_assets}), 200
