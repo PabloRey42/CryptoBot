@@ -154,7 +154,7 @@ def get_cryptos(profile_name):
     return jsonify({"cryptos": profile.get("cryptos", [])})
 
 @app.route('/account/wallet', methods=['GET'])
-def get_wallet(profile_name):
+def get_wallet():
     api_key = os.getenv("BINANCE_TEST_API_KEY")
     api_secret = os.getenv("BINANCE_TEST_SECRET_KEY")
     client = Client(api_key, api_secret, testnet=True)
