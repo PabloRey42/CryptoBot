@@ -10,6 +10,8 @@ from telegram import Bot
 import asyncio
 from binance.client import Client
 from dotenv import load_dotenv
+from binance.exceptions import BinanceAPIException
+
 
 TELEGRAM_BOT_TOKEN = "8182679555:AAEisPOqAXbYMCIzCS0q42qV4NYorBePg38"
 CHAT_ID = "7301678219"
@@ -185,6 +187,50 @@ def get_wallet():
     print("✅ Cryptos détenues après filtrage:", owned_assets)
 
     return jsonify({"wallet": owned_assets}), 200
+
+
+
+@app.route('account/reset', methods=['PUT'])
+def reset_wallet():
+    api_key = os.getenv("BINANCE_TEST_API_KEY")
+    api_secret = os.getenv("BINANCE_TEST_SECRET_KEY")
+    client = Client(api_key, api_secret, testnet=True)
+
+    TRADING_PAIRS = ["BTC", "BNB", "ETH", "USDT"]
+
+    account_info = client.get_account()
+    owned_assets = [
+        {
+            "asset": asset['asset'],
+            "free": float(asset['free'])
+        }
+        for asset in account_info['balances']
+        if float(asset['free']) > 0 
+    ]
+
+    for asset in owned_assets:
+        symbol = None
+        for pair in TRADING_PAIRS:
+            test_symbol = f"{asset['asset']}{pair}"
+            try:
+                client.get_symbol_info(test_symbol) 
+                symbol = test_symbol
+                break
+            except BinanceAPIException:
+                continue
+
+        if symbol:
+            try:
+                print(f"🔴 Vente de {asset['free']} {asset['asset']} sur la paire {symbol}")
+                order = client.order_market_sell(
+                    symbol=symbol,
+                    quantity=asset['free']
+                )
+                print(f"✅ Ordre exécuté : {order}")
+            except BinanceAPIException as e:
+                print(f"⚠️ Erreur lors de la vente de {asset['asset']} : {e}")
+        else:
+            print(f"❌ Impossible de vendre {asset['asset']} : Aucune paire trouvée")
 
     
 # ========================== 🔍 SUIVIES DES CRYPTOS PAR COMPTES ==========================
