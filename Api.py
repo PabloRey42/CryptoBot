@@ -143,16 +143,6 @@ def get_profile_data(profile_name):
 
     return jsonify(profile)
 
-@app.route('/profile/<profile_name>/wallet', methods=['GET'])
-def get_wallet(profile_name):
-    """Récupère le wallet du profil"""
-    profile = load_profile(profile_name)
-
-    if profile is None:
-        return jsonify({"error": "Profil introuvable"}), 404
-
-    return jsonify({"wallet": profile.get("wallet", {})})
-
 @app.route('/profile/<profile_name>/cryptos', methods=['GET'])
 def get_cryptos(profile_name):
     """Retourne les cryptos suivies par un profil"""
