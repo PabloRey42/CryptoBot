@@ -192,13 +192,23 @@ def get_wallet():
 
 @app.route('/account/reset', methods=['PUT'])
 def reset_wallet():
+    """ Réinitialise le portefeuille en vendant tous les actifs disponibles """
+    
     api_key = os.getenv("BINANCE_TEST_API_KEY")
     api_secret = os.getenv("BINANCE_TEST_SECRET_KEY")
+    
+    if not api_key or not api_secret:
+        return jsonify({"error": "Clés API manquantes"}), 400
+
     client = Client(api_key, api_secret, testnet=True)
 
-    TRADING_PAIRS = ["BTC", "BNB", "ETH", "USDT"]
+    TRADING_PAIRS = ["BTC", "BNB", "ETH", "USDT"] 
 
-    account_info = client.get_account()
+    try:
+        account_info = client.get_account()
+    except BinanceAPIException as e:
+        return jsonify({"error": f"Erreur API Binance: {str(e)}"}), 500
+
     owned_assets = [
         {
             "asset": asset['asset'],
@@ -208,29 +218,53 @@ def reset_wallet():
         if float(asset['free']) > 0 
     ]
 
+    if not owned_assets:
+        return jsonify({"message": "Aucun actif à vendre"}), 200
+
+    results = []
+    
     for asset in owned_assets:
         symbol = None
         for pair in TRADING_PAIRS:
             test_symbol = f"{asset['asset']}{pair}"
             try:
-                client.get_symbol_info(test_symbol) 
-                symbol = test_symbol
-                break
+                symbol_info = client.get_symbol_info(test_symbol)
+                if symbol_info:  # Vérifie si la paire existe
+                    symbol = test_symbol
+                    break
             except BinanceAPIException:
                 continue
 
         if symbol:
             try:
+                lot_size_info = client.get_symbol_info(symbol)['filters']
+                min_qty = None
+                for filter in lot_size_info:
+                    if filter['filterType'] == 'LOT_SIZE':
+                        min_qty = float(filter['minQty'])
+                        break
+
+                if min_qty and asset['free'] < min_qty:
+                    print(f"⚠️ Quantité insuffisante pour vendre {asset['asset']} ({asset['free']} < {min_qty})")
+                    results.append({"asset": asset['asset'], "status": "non vendu (quantité insuffisante)"})
+                    continue  # Passe à l'actif suivant
+
                 print(f"🔴 Vente de {asset['free']} {asset['asset']} sur la paire {symbol}")
                 order = client.order_market_sell(
                     symbol=symbol,
-                    quantity=asset['free']
+                    quantity=round(asset['free'] - (asset['free'] * 0.001), 8)  # Ajustement pour éviter les erreurs
                 )
-                print(f"✅ Ordre exécuté : {order}")
+                print(f"✅ Ordre exécuté : {order['orderId']}")
+                results.append({"asset": asset['asset'], "status": "vendu", "order_id": order['orderId']})
+
             except BinanceAPIException as e:
                 print(f"⚠️ Erreur lors de la vente de {asset['asset']} : {e}")
+                results.append({"asset": asset['asset'], "status": "erreur", "error": str(e)})
         else:
             print(f"❌ Impossible de vendre {asset['asset']} : Aucune paire trouvée")
+            results.append({"asset": asset['asset'], "status": "non vendu (paire introuvable)"})
+
+    return jsonify({"message": "Processus terminé", "results": results}), 200
 
     
 # ========================== 🔍 SUIVIES DES CRYPTOS PAR COMPTES ==========================
