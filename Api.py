@@ -7,6 +7,8 @@ import bcrypt
 import jwt
 import datetime
 from telegram import Bot
+import asyncio
+
 
 
 TELEGRAM_BOT_TOKEN = "8182679555:AAEisPOqAXbYMCIzCS0q42qV4NYorBePg38"
@@ -235,13 +237,17 @@ def get_rsi_for_symbol(symbol):
 
 # ========================== 🤖Bot Telegram ==========================
 
-def send_telegram_message(message):
-    """Envoie un message Telegram à l'utilisateur."""
+async def send_telegram_message_async(message):
+    """Envoie un message Telegram de manière asynchrone."""
     try:
-        bot.send_message(chat_id=CHAT_ID, text=message)
+        await bot.send_message(chat_id=CHAT_ID, text=message)
         print(f"Message envoyé : {message}")
     except Exception as e:
         print(f"Erreur lors de l'envoi du message Telegram : {e}")
+
+def send_telegram_message(message):
+    """Exécute la fonction asynchrone dans l'événement loop."""
+    asyncio.run(send_telegram_message_async(message))
 
 
 # ========================== 🚀 LANCEMENT DU SERVEUR ==========================
