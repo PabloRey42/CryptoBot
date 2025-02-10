@@ -190,7 +190,7 @@ def get_wallet():
 
 
 
-@app.route('account/reset', methods=['PUT'])
+@app.route('/account/reset', methods=['PUT'])
 def reset_wallet():
     api_key = os.getenv("BINANCE_TEST_API_KEY")
     api_secret = os.getenv("BINANCE_TEST_SECRET_KEY")
