@@ -421,26 +421,6 @@ def reset_wallet():
     
 # ========================== 🔍 SUIVIES DES CRYPTOS PAR COMPTES ==========================
 
-@app.route('/api/user/cryptos', methods=['POST'])
-def add_crypto():
-    data = request.json
-    user_id = data.get("user_id")
-    crypto_symbol = data.get("crypto_symbol")
-
-    if not user_id or not crypto_symbol:
-        return jsonify({"error": "User ID et crypto requis"}), 400
-
-    conn = get_db_connection()
-    cur = conn.cursor()
-
-    cur.execute("INSERT INTO user_cryptos (user_id, crypto_symbol) VALUES (%s, %s)", (user_id, crypto_symbol))
-
-    conn.commit()
-    cur.close()
-    conn.close()
-
-    return jsonify({"message": f"{crypto_symbol} ajouté à la liste suivie"}), 201
-
 @app.route('/api/user/cryptos/<int:user_id>', methods=['GET'])
 def get_user_cryptos(user_id):
     conn = get_db_connection()
