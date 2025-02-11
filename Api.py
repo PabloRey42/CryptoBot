@@ -157,9 +157,35 @@ def register():
 
 # ========================== 👤 GESTION DES PROFILS & WALLETS ==========================
 
-@app.route('/profile/<user_email>/cryptos', methods=['GET'])
+def token_required(f):
+    """Décorateur pour protéger les routes avec un token JWT"""
+    @wraps(f)
+    def decorated(*args, **kwargs):
+        token = None
+        if 'Authorization' in request.headers:
+            auth_header = request.headers['Authorization']
+            if auth_header.startswith("Bearer "):
+                token = auth_header.split(" ")[1]
+
+        if not token:
+            return jsonify({"error": "Token manquant"}), 401
+
+        try:
+            data = jwt.decode(token, SECRET_KEY, algorithms=["HS256"])
+            user_email = data.get("email")  # Récupère l'email depuis le token
+        except jwt.ExpiredSignatureError:
+            return jsonify({"error": "Token expiré"}), 401
+        except jwt.InvalidTokenError:
+            return jsonify({"error": "Token invalide"}), 401
+
+        return f(user_email, *args, **kwargs)
+
+    return decorated
+
+@app.route('/profile/cryptos', methods=['GET'])
+@token_required
 def get_active_cryptos(user_email):
-    """Retourne les cryptos activées pour un utilisateur."""
+    """Retourne les cryptos activées pour l'utilisateur connecté."""
     conn = get_db_connection()
     cursor = conn.cursor()
 
@@ -171,9 +197,10 @@ def get_active_cryptos(user_email):
 
     return jsonify({"cryptos": cryptos})
 
-@app.route('/profile/<user_email>/cryptos/add', methods=['POST'])
+@app.route('/profile/cryptos/add', methods=['POST'])
+@token_required
 def add_crypto(user_email):
-    """Ajoute une crypto à la liste des cryptos suivies d’un utilisateur."""
+    """Ajoute une crypto à la liste des cryptos suivies."""
     data = request.json
     crypto = data.get("crypto")
 
@@ -196,11 +223,12 @@ def add_crypto(user_email):
     cursor.close()
     conn.close()
 
-    return jsonify({"message": f"Crypto {crypto.upper()} ajoutée pour {user_email}"}), 200
+    return jsonify({"message": f"Crypto {crypto.upper()} ajoutée"}), 200
 
-@app.route('/profile/<user_email>/cryptos/remove', methods=['POST'])
+@app.route('/profile/cryptos/remove', methods=['POST'])
+@token_required
 def remove_crypto(user_email):
-    """Désactive une crypto suivie par l'utilisateur."""
+    """Désactive une crypto suivie."""
     data = request.json
     crypto = data.get("crypto")
 
@@ -210,7 +238,6 @@ def remove_crypto(user_email):
     conn = get_db_connection()
     cursor = conn.cursor()
 
-    # Vérifier si la crypto existe avant de la désactiver
     cursor.execute("SELECT id FROM user_cryptos WHERE user_email = %s AND crypto_symbol = %s AND is_active = TRUE", (user_email, crypto.upper()))
     existing_crypto = cursor.fetchone()
 
@@ -223,7 +250,8 @@ def remove_crypto(user_email):
     cursor.close()
     conn.close()
 
-    return jsonify({"message": f"Crypto {crypto.upper()} désactivée pour {user_email}"}), 200
+    return jsonify({"message": f"Crypto {crypto.upper()} désactivée"}), 200
+
 
 
 def load_profile(profile_name):
