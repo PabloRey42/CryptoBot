@@ -157,8 +157,8 @@ def register():
 
     # 🔹 Ajouter une crypto par défaut
     default_crypto = "BTC/USDT"
-    cursor.execute("INSERT INTO user_cryptos (user_email, crypto_symbol, is_active) VALUES (%s, %s, TRUE)", 
-                   (email, default_crypto))
+    cursor.execute("INSERT INTO user_cryptos (user_id, crypto_symbol, is_active) VALUES (%s, %s, TRUE)",
+               (user_id, default_crypto))
 
     conn.commit()
     cursor.close()
@@ -201,7 +201,7 @@ def get_active_cryptos(user_email):
     conn = get_db_connection()
     cursor = conn.cursor()
 
-    cursor.execute("SELECT crypto_symbol FROM user_cryptos WHERE user_email = %s AND is_active = TRUE", (user_email,))
+    cursor.execute("SELECT crypto_symbol FROM user_cryptos WHERE user_id = %s AND is_active = TRUE", (user_id,))
     cryptos = [row[0] for row in cursor.fetchall()]
 
     cursor.close()
