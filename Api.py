@@ -13,6 +13,8 @@ from dotenv import load_dotenv
 from binance.exceptions import BinanceAPIException
 from flask_limiter import Limiter
 from flask_limiter.util import get_remote_address
+from functools import wraps
+
 
 app = Flask(__name__)
 CORS(app, supports_credentials=True, origins=["https://bot.crypteau.fr"])
