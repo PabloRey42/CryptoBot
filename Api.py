@@ -183,13 +183,13 @@ def token_required(f):
 
         try:
             data = jwt.decode(token, SECRET_KEY, algorithms=["HS256"])
-            user_email = data.get("email")  # Récupère l'email depuis le token
+            user_id = data.get("user_id")
         except jwt.ExpiredSignatureError:
             return jsonify({"error": "Token expiré"}), 401
         except jwt.InvalidTokenError:
             return jsonify({"error": "Token invalide"}), 401
 
-        return f(user_email, *args, **kwargs)
+        return f(user_id, *args, **kwargs)
 
     return decorated
 
@@ -211,7 +211,7 @@ def get_active_cryptos(user_email):
 
 @app.route('/profile/cryptos/add', methods=['POST'])
 @token_required
-def add_crypto(user_email):
+def add_crypto(user_id):  # ✅ Remplace user_email par user_id
     """Ajoute une crypto à la liste des cryptos suivies."""
     data = request.json
     crypto = data.get("crypto")
@@ -222,20 +222,20 @@ def add_crypto(user_email):
     conn = get_db_connection()
     cursor = conn.cursor()
 
-    # Vérifier si la crypto existe déjà mais est désactivée
-    cursor.execute("SELECT id FROM user_cryptos WHERE user_email = %s AND crypto_symbol = %s", (user_email, crypto.upper()))
+    cursor.execute("SELECT id FROM user_cryptos WHERE user_id = %s AND crypto_symbol = %s", (user_id, crypto.upper()))
     existing_crypto = cursor.fetchone()
 
     if existing_crypto:
-        cursor.execute("UPDATE user_cryptos SET is_active = TRUE WHERE user_email = %s AND crypto_symbol = %s", (user_email, crypto.upper()))
+        cursor.execute("UPDATE user_cryptos SET is_active = TRUE WHERE user_id = %s AND crypto_symbol = %s", (user_id, crypto.upper()))
     else:
-        cursor.execute("INSERT INTO user_cryptos (user_email, crypto_symbol, is_active) VALUES (%s, %s, TRUE)", (user_email, crypto.upper()))
+        cursor.execute("INSERT INTO user_cryptos (user_id, crypto_symbol, is_active) VALUES (%s, %s, TRUE)", (user_id, crypto.upper()))
 
     conn.commit()
     cursor.close()
     conn.close()
 
     return jsonify({"message": f"Crypto {crypto.upper()} ajoutée"}), 200
+
 
 @app.route('/profile/cryptos/remove', methods=['POST'])
 @token_required
