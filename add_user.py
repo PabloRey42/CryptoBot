@@ -1,6 +1,5 @@
 import requests
 import json
-import random
 import time
 
 # 🔹 URL de l'API
@@ -8,13 +7,6 @@ BASE_URL = "https://bot.crypteau.fr:5000"
 
 # 🔹 Cryptos disponibles
 CRYPTO_LIST = ["BTC/USDT", "ETH/USDT", "BNB/USDT", "SOL/USDT", "XRP/USDT"]
-
-# 🔹 Générer un email et mot de passe aléatoire
-def generate_random_user():
-    random_id = random.randint(1000, 9999)
-    email = f"testuser{random_id}@crypteau.fr"
-    password = "TestPassword123!"
-    return email, password
 
 # 🔹 Inscription d'un utilisateur
 def register_user(email, password):
@@ -58,26 +50,50 @@ def add_crypto_to_user(token, crypto):
     else:
         print(f"❌ Erreur lors de l'ajout de la crypto : {response.json()}")
 
-# 🔹 Script principal
+# 🔹 Menu interactif
 def main():
-    email, password = generate_random_user()
+    print("\n🎉 Bienvenue dans le script de création d'utilisateur 🎉\n")
 
-    # 1️⃣ Inscription
+    # 1️⃣ Demander un email et un mot de passe
+    email = input("📧 Entrez l'email du nouvel utilisateur : ").strip()
+    password = input("🔒 Entrez le mot de passe : ").strip()
+
+    # 2️⃣ Inscription
     if not register_user(email, password):
         return
 
-    # 2️⃣ Connexion pour récupérer le token
+    # 3️⃣ Connexion pour récupérer le token
     time.sleep(2)  # Pause pour éviter les erreurs de propagation
     token = login_user(email, password)
     if not token:
         return
 
-    # 3️⃣ Ajouter des cryptos à l'utilisateur
-    for crypto in random.sample(CRYPTO_LIST, 3):  # Ajoute 3 cryptos aléatoires
+    # 4️⃣ Ajouter des cryptos
+    print("\n📊 Cryptos disponibles :")
+    for i, crypto in enumerate(CRYPTO_LIST, 1):
+        print(f"{i}. {crypto}")
+
+    chosen_cryptos = []
+    while True:
+        choice = input("\n✅ Sélectionnez une crypto (1-5) ou appuyez sur Entrée pour terminer : ").strip()
+        if choice == "":
+            break
+        elif choice.isdigit() and 1 <= int(choice) <= len(CRYPTO_LIST):
+            crypto = CRYPTO_LIST[int(choice) - 1]
+            if crypto not in chosen_cryptos:
+                chosen_cryptos.append(crypto)
+                print(f"✔️ {crypto} ajoutée à votre liste.")
+            else:
+                print(f"⚠️ {crypto} est déjà sélectionnée.")
+        else:
+            print("❌ Sélection invalide, essayez encore.")
+
+    # 5️⃣ Ajouter les cryptos choisies
+    for crypto in chosen_cryptos:
         add_crypto_to_user(token, crypto)
         time.sleep(1)
 
-    print(f"🎉 Utilisateur {email} complètement créé avec des cryptos !")
+    print(f"\n🎉 Utilisateur {email} complètement créé avec les cryptos sélectionnées !")
 
 if __name__ == "__main__":
     main()
