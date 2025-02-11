@@ -131,7 +131,7 @@ def logout():
 
 @app.route('/register', methods=['POST'])
 def register():
-    """ Enregistre un nouvel utilisateur avec un rôle par défaut """
+    """ Enregistre un nouvel utilisateur et ajoute une crypto par défaut """
     data = request.json
     email = data.get("email")
     password = data.get("password")
@@ -142,20 +142,29 @@ def register():
         return jsonify({"error": "Connexion à la base de données impossible"}), 500
     cursor = conn.cursor()
 
+    # Vérifier si l'email existe déjà
     cursor.execute("SELECT email FROM users WHERE email = %s", (email,))
     if cursor.fetchone():
         return jsonify({"error": "Email déjà utilisé"}), 400
 
+    # Hacher le mot de passe avant stockage
     hashed_password = bcrypt.hashpw(password.encode('utf-8'), bcrypt.gensalt()).decode('utf-8')
 
-    cursor.execute("INSERT INTO users (email, password, role) VALUES (%s, %s, %s)", 
+    # Insérer l'utilisateur
+    cursor.execute("INSERT INTO users (email, password, role) VALUES (%s, %s, %s) RETURNING id", 
                    (email, hashed_password, role))
-    conn.commit()
+    user_id = cursor.fetchone()[0]
 
+    # 🔹 Ajouter une crypto par défaut
+    default_crypto = "BTC/USDT"
+    cursor.execute("INSERT INTO user_cryptos (user_email, crypto_symbol, is_active) VALUES (%s, %s, TRUE)", 
+                   (email, default_crypto))
+
+    conn.commit()
     cursor.close()
     conn.close()
 
-    return jsonify({"message": "Utilisateur enregistré avec succès", "role": role}), 201
+    return jsonify({"message": "Utilisateur enregistré avec succès", "role": role, "crypto": default_crypto}), 201
 
 # ========================== 👤 GESTION DES PROFILS & WALLETS ==========================
 
@@ -188,6 +197,7 @@ def token_required(f):
 @token_required
 def get_active_cryptos(user_email):
     """Retourne les cryptos activées pour l'utilisateur connecté."""
+    print(f"🔍 Email extrait du token : {user_email}")  # Debugging
     conn = get_db_connection()
     cursor = conn.cursor()
 
