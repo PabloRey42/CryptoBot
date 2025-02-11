@@ -10,20 +10,29 @@ from Data.RSI import calculate_all_indicators, save_rsi_data
 from colorama import Fore, Style
 from Api import send_telegram_message
 from binance.client import Client
+import psycopg2
 
 # 🔹 Charger les variables d'environnement
 load_dotenv()
 
 # 🔹 Dossiers de stockage
 SAVE_DIR = "saves"
-PROFILE_DIR = "profiles"
 if not os.path.exists(SAVE_DIR):
     os.makedirs(SAVE_DIR)
-if not os.path.exists(PROFILE_DIR):
-    os.makedirs(PROFILE_DIR)
 
 # 🔹 Logging
 logging.basicConfig(filename='bot_log.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+
+# ========================== 🔥 CONNEXION À LA BDD ==========================
+def get_db_connection():
+    """Connexion PostgreSQL"""
+    return psycopg2.connect(
+        dbname="crypto_users",
+        user="crypto_admin",
+        password="7102Bdd*",
+        host="127.0.0.1",
+        port="5432"
+    )
 
 # ========================== 🔥 FONCTIONS DE LOGGING ==========================
 def print_log(message, level="INFO"):
@@ -36,61 +45,19 @@ def print_log(message, level="INFO"):
     elif level == "ERROR":
         print(f"{Fore.RED}[{now}] [ERROR] {message}{Style.RESET_ALL}")
 
-# ========================== 🔥 GESTION DES PROFILS ==========================
-def list_profiles():
-    """Liste tous les profils disponibles."""
-    profiles = [f.replace(".json", "") for f in os.listdir(PROFILE_DIR) if f.endswith(".json")]
-    return profiles
+# ========================== 🔥 GESTION DES CRYPTOS DANS LA BDD ==========================
+def get_user_cryptos(user_email):
+    """Récupère uniquement les cryptos activées pour un utilisateur depuis PostgreSQL."""
+    conn = get_db_connection()
+    cursor = conn.cursor()
 
-def load_profile(profile_name):
-    """Charge un profil utilisateur depuis un fichier JSON."""
-    profile_path = os.path.join(PROFILE_DIR, f"{profile_name}.json")
-    
-    if not os.path.exists(profile_path):
-        print_log(f"Profil '{profile_name}' introuvable.", "ERROR")
-        return None
+    cursor.execute("SELECT crypto_symbol FROM user_cryptos WHERE user_email = %s AND is_active = TRUE", (user_email,))
+    cryptos = [row[0] for row in cursor.fetchall()]
 
-    with open(profile_path, 'r') as file:
-        return json.load(file)
+    cursor.close()
+    conn.close()
 
-def save_profile(profile_name, profile_data):
-    """Enregistre un profil utilisateur en JSON."""
-    profile_path = os.path.join(PROFILE_DIR, f"{profile_name}.json")
-    
-    with open(profile_path, 'w') as file:
-        json.dump(profile_data, file, indent=4)
-    
-    print_log(f"Profil '{profile_name}' enregistré avec succès.")
-
-def select_profile():
-    """Menu pour sélectionner ou créer un profil."""
-    while True:
-        profiles = list_profiles()
-
-        print("\n===== Gestion des Profils =====")
-        if profiles:
-            print("Profils existants :")
-            for i, profile in enumerate(profiles):
-                print(f"{i+1}. {profile}")
-
-        choice = input("\nSélectionnez un profil (ou appuyez sur Entrée pour utiliser le profil par défaut) : ").strip()
-
-        if choice == "":
-            return load_profile("default")  # Charge le profil par défaut
-
-        elif choice.isdigit() and 1 <= int(choice) <= len(profiles):
-            profile = load_profile(profiles[int(choice) - 1])
-
-            if not profile:
-                return None
-
-            if not profile.get("cryptos") or profile["cryptos"] == [""]:
-                print_log(f"Aucune crypto définie pour {profile['name']}, veuillez les ajouter.", "ERROR")
-                return None
-
-            return profile
-
-        print("Choix invalide. Veuillez réessayer.")
+    return cryptos
 
 # ========================== 🔥 GESTION DE BINANCE ==========================
 def initialize_exchange():
@@ -115,10 +82,10 @@ def initialize_exchange():
         account_info = client.get_account()
         balances = account_info['balances']
         
+        print_log("📊 Solde Binance Testnet :")
         for asset in balances:
             if float(asset['free']) > 0 or float(asset['locked']) > 0:  
-                print(f"{asset['asset']}: {asset['free']} disponible, {asset['locked']} verrouillé")
-
+                print_log(f"{asset['asset']}: {asset['free']} dispo, {asset['locked']} verrouillé")
 
         exchange.set_sandbox_mode(True)
         print_log("🔵 Mode sandbox activé (Testnet).", "INFO")
@@ -137,22 +104,21 @@ def test_binance_connection(exchange):
         print_log(f"❌ Erreur API Binance Testnet : {e}", "ERROR")
 
 # ========================== 🔥 THREAD PRINCIPAL ==========================
-def rsi_worker(exchange, profile):
-    """Thread pour calculer les RSI et MACD avec affichage en direct."""
-    profile_name = profile["name"]
-    profile_file = os.path.join("saves", f"{profile_name}.json")
-
-    print_log(f"Début de l'analyse des cryptos pour le profil {profile_name}.")
+def rsi_worker(exchange, user_email):
+    """Thread pour analyser le RSI et exécuter des trades automatiquement."""
     
+    print_log(f"🚀 Démarrage de l'analyse des cryptos pour {user_email}.")
+
     while True:
         try:
-            symbols = profile["cryptos"]
+            symbols = get_user_cryptos(user_email)
 
             if not symbols:
-                print_log("🚨 Aucune crypto définie, arrêt du bot.", "ERROR")
-                return
+                print_log(f"🚨 Aucun crypto suivi pour {user_email}.", "WARNING")
+                time.sleep(60)  # Attendre avant de re-vérifier
+                continue
 
-            print_log(f"Récupération des données pour {len(symbols)} cryptos suivies...")
+            print_log(f"📊 Analyse des cryptos suivies : {symbols}")
 
             rsi_data = calculate_all_indicators(exchange, symbols)
 
@@ -160,40 +126,35 @@ def rsi_worker(exchange, profile):
                 print_log("Aucune donnée récupérée, problème API ou cryptos invalides.", "WARNING")
                 continue
 
-            market_data = {
-                "profile": profile_name,
-                "timestamp": time.strftime("%Y-%m-%dT%H:%M:%S"),
-                "cryptos": rsi_data
-            }
+            # 🔥 Stocker les résultats dans un fichier JSON
+            with open(f"saves/{user_email}.json", "w") as file:
+                json.dump({"user_email": user_email, "cryptos": rsi_data}, file, indent=4)
 
-            with open(profile_file, "w") as file:
-                json.dump(market_data, file, indent=4)
-
-            print_log(f"Données mises à jour pour {profile_name} ({len(rsi_data)} cryptos).")
+            print_log(f"✅ Données mises à jour pour {user_email}.")
 
         except ccxt.NetworkError as e:
-            print_log(f"Problème API ({profile_name}) : {e}, tentative de reconnexion...", "WARNING")
+            print_log(f"⚠️ Problème API : {e}, tentative de reconnexion...", "WARNING")
             time.sleep(10)
         except Exception as e:
-            print_log(f"Erreur dans rsi_worker ({profile_name}) : {e}", "ERROR")
+            print_log(f"❌ Erreur dans rsi_worker() : {e}", "ERROR")
 
-        time.sleep(300)  # Pause de 5 minutes
+        time.sleep(300)  # Pause de 5 minutes avant la prochaine analyse
 
 # ========================== 🚀 LANCEMENT DU BOT ==========================
 if __name__ == "__main__":
-    profile = select_profile()
+    user_email = input("Entrez votre email Binance : ").strip().lower()
     
-    if profile is None:
-        print_log("❌ Aucun profil valide sélectionné. Fermeture du programme.", "ERROR")
+    if not user_email:
+        print_log("❌ Aucun email fourni. Fermeture du programme.", "ERROR")
         exit(1)
 
     exchange = initialize_exchange()
     test_binance_connection(exchange)
 
-    threading.Thread(target=rsi_worker, args=(exchange, profile), daemon=True).start()
+    threading.Thread(target=rsi_worker, args=(exchange, user_email), daemon=True).start()
 
-    print_log(f"Bot démarré avec le profil {profile['name']}. Appuyez sur Ctrl+C pour quitter.")
-    send_telegram_message(f"Zebi y a {profile['name']} qui démarre le bot. Appel les Hendeks")
+    print_log(f"Bot démarré pour {user_email}. Appuyez sur Ctrl+C pour quitter.")
+    send_telegram_message(f"🚀 Bot démarré pour {user_email}. Analyse des cryptos en cours.")
 
     while True:
         time.sleep(1)
