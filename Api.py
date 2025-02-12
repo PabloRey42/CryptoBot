@@ -169,28 +169,19 @@ def register():
 # ========================== 👤 GESTION DES PROFILS & WALLETS ==========================
 
 def token_required(f):
-    """Décorateur pour protéger les routes avec un token JWT"""
     @wraps(f)
     def decorated(*args, **kwargs):
-        token = None
-        if 'Authorization' in request.headers:
-            auth_header = request.headers['Authorization']
-            if auth_header.startswith("Bearer "):
-                token = auth_header.split(" ")[1]
+        token = request.cookies.get("token")
 
         if not token:
-            print("❌ Aucun token JWT reçu !")
             return jsonify({"error": "Token manquant"}), 401
 
         try:
             data = jwt.decode(token, SECRET_KEY, algorithms=["HS256"])
             user_id = data.get("user_id")
-            print(f"🔐 Token JWT valide, user_id={user_id}")  # 🔎 Debugging Token
         except jwt.ExpiredSignatureError:
-            print("❌ Token expiré !")
             return jsonify({"error": "Token expiré"}), 401
         except jwt.InvalidTokenError:
-            print("❌ Token invalide !")
             return jsonify({"error": "Token invalide"}), 401
 
         return f(user_id, *args, **kwargs)
