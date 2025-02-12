@@ -473,13 +473,17 @@ def get_user_cryptos(user_id):
     conn = get_db_connection()
     cur = conn.cursor()
 
-    cur.execute("SELECT crypto_symbol FROM user_cryptos WHERE user_id = %s", (user_id,))
+    # ✅ Récupérer `crypto_symbol` + `is_active`
+    cur.execute("SELECT crypto_symbol, is_active FROM user_cryptos WHERE user_id = %s", (user_id,))
     cryptos = cur.fetchall()
 
     cur.close()
     conn.close()
 
-    return jsonify({"cryptos": [crypto[0] for crypto in cryptos]})
+    # ✅ Transformer les données en JSON avec `is_active`
+    return jsonify({
+        "cryptos": [{"symbol": crypto[0], "is_active": crypto[1]} for crypto in cryptos]
+    })
 
 
 # ========================== 🔍 ROUTES EXISTANTES ==========================
