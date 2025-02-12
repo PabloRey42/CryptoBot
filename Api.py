@@ -245,7 +245,7 @@ def add_crypto(user_id):
 
 @app.route('/profile/cryptos/remove', methods=['POST'])
 @token_required
-def remove_crypto(user_email):
+def remove_crypto(user_id):  # ✅ Remplace user_email par user_id
     """Désactive une crypto suivie."""
     data = request.json
     crypto = data.get("crypto")
@@ -256,19 +256,22 @@ def remove_crypto(user_email):
     conn = get_db_connection()
     cursor = conn.cursor()
 
-    cursor.execute("SELECT id FROM user_cryptos WHERE user_email = %s AND crypto_symbol = %s AND is_active = TRUE", (user_email, crypto.upper()))
+    cursor.execute("SELECT id FROM user_cryptos WHERE user_id = %s AND crypto_symbol = %s AND is_active = TRUE", 
+                   (user_id, crypto.upper()))
     existing_crypto = cursor.fetchone()
 
     if not existing_crypto:
         return jsonify({"error": f"Crypto {crypto.upper()} non trouvée ou déjà désactivée."}), 404
 
-    cursor.execute("UPDATE user_cryptos SET is_active = FALSE WHERE user_email = %s AND crypto_symbol = %s", (user_email, crypto.upper()))
+    cursor.execute("UPDATE user_cryptos SET is_active = FALSE WHERE user_id = %s AND crypto_symbol = %s", 
+                   (user_id, crypto.upper()))
     conn.commit()
 
     cursor.close()
     conn.close()
 
     return jsonify({"message": f"Crypto {crypto.upper()} désactivée"}), 200
+
 
 
 
