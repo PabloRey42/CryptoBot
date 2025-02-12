@@ -173,26 +173,24 @@ def token_required(f):
     @wraps(f)
     def decorated(*args, **kwargs):
         token = None
-        
-        # 🔹 Vérifie l'Authorization Header en priorité
         if 'Authorization' in request.headers:
             auth_header = request.headers['Authorization']
             if auth_header.startswith("Bearer "):
                 token = auth_header.split(" ")[1]
 
-        # 🔹 Si pas de token en header, tente de récupérer depuis les cookies
         if not token:
-            token = request.cookies.get("token")  # 🔥 Ajoute cette ligne
-
-        if not token:
+            print("❌ Aucun token JWT reçu !")
             return jsonify({"error": "Token manquant"}), 401
 
         try:
             data = jwt.decode(token, SECRET_KEY, algorithms=["HS256"])
             user_id = data.get("user_id")
+            print(f"🔐 Token JWT valide, user_id={user_id}")  # 🔎 Debugging Token
         except jwt.ExpiredSignatureError:
+            print("❌ Token expiré !")
             return jsonify({"error": "Token expiré"}), 401
         except jwt.InvalidTokenError:
+            print("❌ Token invalide !")
             return jsonify({"error": "Token invalide"}), 401
 
         return f(user_id, *args, **kwargs)
@@ -245,12 +243,15 @@ def add_crypto(user_id):
 
 @app.route('/profile/cryptos/remove', methods=['POST'])
 @token_required
-def remove_crypto(user_id):  # ✅ Remplace user_email par user_id
+def remove_crypto(user_id):
     """Désactive une crypto suivie."""
     data = request.json
     crypto = data.get("crypto")
 
+    print(f"🔍 Requête reçue: user_id={user_id}, crypto={crypto}")  # 🔎 Debugging
+
     if not crypto:
+        print("❌ Aucune crypto reçue !")
         return jsonify({"error": "Veuillez fournir une crypto."}), 400
 
     conn = get_db_connection()
@@ -259,16 +260,22 @@ def remove_crypto(user_id):  # ✅ Remplace user_email par user_id
     cursor.execute("SELECT id FROM user_cryptos WHERE user_id = %s AND crypto_symbol = %s AND is_active = TRUE", 
                    (user_id, crypto.upper()))
     existing_crypto = cursor.fetchone()
+    
+    print(f"📡 Résultat de la recherche en base: {existing_crypto}")  # 🔎 Debugging BDD
 
     if not existing_crypto:
+        print(f"❌ Crypto {crypto.upper()} non trouvée ou déjà désactivée pour user_id={user_id}")
         return jsonify({"error": f"Crypto {crypto.upper()} non trouvée ou déjà désactivée."}), 404
 
+    # Désactivation de la crypto
     cursor.execute("UPDATE user_cryptos SET is_active = FALSE WHERE user_id = %s AND crypto_symbol = %s", 
                    (user_id, crypto.upper()))
     conn.commit()
 
     cursor.close()
     conn.close()
+
+    print(f"✅ Crypto {crypto.upper()} désactivée avec succès !")  # 🔎 Debugging Succès
 
     return jsonify({"message": f"Crypto {crypto.upper()} désactivée"}), 200
 
