@@ -17,7 +17,7 @@ from functools import wraps
 
 
 app = Flask(__name__)
-CORS(app, supports_credentials=True, origins=["https://bot.crypteau.fr"])
+CORS(app, supports_credentials=True, origins=["https://bot.crypteau.fr"], methods=["GET", "POST", "OPTIONS", "PUT", "DELETE"])
 SECRET_KEY = "Secret_key_de_ouf_de_test"
 
 limiter = Limiter(get_remote_address, app=app, default_limits=["100 per minute"])
