@@ -173,10 +173,16 @@ def token_required(f):
     @wraps(f)
     def decorated(*args, **kwargs):
         token = None
+        
+        # 🔹 Vérifie l'Authorization Header en priorité
         if 'Authorization' in request.headers:
             auth_header = request.headers['Authorization']
             if auth_header.startswith("Bearer "):
                 token = auth_header.split(" ")[1]
+
+        # 🔹 Si pas de token en header, tente de récupérer depuis les cookies
+        if not token:
+            token = request.cookies.get("token")  # 🔥 Ajoute cette ligne
 
         if not token:
             return jsonify({"error": "Token manquant"}), 401
@@ -211,7 +217,7 @@ def get_active_cryptos(user_email):
 
 @app.route('/profile/cryptos/add', methods=['POST'])
 @token_required
-def add_crypto(user_id):  # ✅ Remplace user_email par user_id
+def add_crypto(user_id):
     """Ajoute une crypto à la liste des cryptos suivies."""
     data = request.json
     crypto = data.get("crypto")
